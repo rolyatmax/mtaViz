@@ -4,15 +4,23 @@ var mta = mta || {};
 
 	'use strict';
 
+	var urls = ['data/turnstile_130420.csv', 'data/turnstile_130413.csv',
+				'data/turnstile_130406.csv', 'data/turnstile_130330.csv',
+				'data/turnstile_130323.csv', 'data/turnstile_130316.csv',
+				'data/turnstile_130309.csv', 'data/turnstile_130302.csv',
+				'data/turnstile_121110.csv', 'data/turnstile_121103.csv'];
+
 	var content = document.getElementById("content");
 	var data = {};
-	var turnstileURL = 'data/turnstile_130413.csv';
-	//var turnstileURL = 'data/turnstile_130420.csv';
 	var stationURL = 'data/Remote-Booth-Station.csv';
-
+	var eventsBound = false;
 	var currentStationIndex = 0;
 
-	function init() {
+	function init(turnstileURL) {
+
+		turnstileURL = turnstileURL || 'data/turnstile_130420.csv';
+
+		content.innerHTML = "";
 
 		var h1 = document.createElement('h1');
 		h1.innerHTML = "Please wait while we process MTA data.";
@@ -50,7 +58,11 @@ var mta = mta || {};
 	}
 
 	function bindEvents() {
+		if (eventsBound) return;
+
 		document.addEventListener('keydown', onKeydown);
+
+		eventsBound = true;
 
 		function onKeydown(e) {
 
@@ -334,12 +346,13 @@ var mta = mta || {};
 	}
 
 
-
-
 	/////// Exports
 
-	mta.init = init;
-	mta.data = data;
-	mta.render = render;
+	mta = {
+		init: init,
+		data: data,
+		render: render,
+		urls: urls
+	};
 
 }());
