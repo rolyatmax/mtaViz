@@ -5,13 +5,18 @@ var mta = mta || {};
 	'use strict';
 
 	var content = document.getElementById("content");
-	var table = document.createElement("table");
 	var data = {};
-	var turnstileURL = 'data/turnstile_130420.csv';
+	var turnstileURL = 'data/turnstile_130413.csv';
+	//var turnstileURL = 'data/turnstile_130420.csv';
 	var stationURL = 'data/Remote-Booth-Station.csv';
 
+	var currentStationIndex = 0;
 
 	function init() {
+
+		var h1 = document.createElement('h1');
+		h1.innerHTML = "Please wait while we process MTA data.";
+		content.appendChild(h1);
 
 		// load in csv files, parse and save them
 		var prom = loadData( turnstileURL ).then(function(parsed){
@@ -23,50 +28,85 @@ var mta = mta || {};
 		});
 
 		when(prom, prom2).then( main );
-
-		// setup table
-		content.appendChild(table);
-
 	}
 
 	function main() {
 
 		data.station = setupStationKey( data.station );
 
-		convertTurnstileData( data.turnstile );
+		data.turnstile = convertTurnstileData( data.turnstile );
 		data.turnstile = combineAudits( data.turnstile );
 		data.turnstile = addNewEntryData( data.turnstile );
+		data.turnstile = combineStations( data.turnstile );
+
+		bindEvents();
+
+		var h1 = document.createElement('h1');
+		h1.innerHTML = "All loaded! Use the arrow keys to cycle through entry data.";
+		content.innerHTML = "";
+		content.appendChild(h1);
+
 		console.log("DONE");
 	}
 
+	function bindEvents() {
+		document.addEventListener('keydown', onKeydown);
+
+		function onKeydown(e) {
+
+			if (e.which == 39 || e.which == 40) { // up or left
+				e.preventDefault();
+				currentStationIndex++;
+				render();
+			}
+			if (e.which == 37 || e.which == 38) { // down or right
+				e.preventDefault();
+				currentStationIndex--;
+				if (currentStationIndex < 0) currentStationIndex = 0;
+				render();
+			}
+		}
+	}
 
 	function render( obj ) {
 
-		var p = document.createElement('p');
-		p.innerHTML = obj.id;
-		content.appendChild(p);
+		var len = data.turnstile.length;
+		obj = obj || data.turnstile[ currentStationIndex % len ];
 
-		for (var i = 0, len = obj.audits.length; i < len; i++) {
-			var audit = obj.audits[i];
+		content.innerHTML = "";
 
-			var tr = document.createElement('tr');
+		var h1 = document.createElement('h1');
+		h1.innerHTML = obj.name + " | " + obj.lines;
+		content.appendChild(h1);
 
-			var date = document.createElement('td');
-			var time = document.createElement('td');
-			var entryTotal = document.createElement('td');
-			var newEntries = document.createElement('td');
+		for (var prop in obj.audits) {
+			var day = obj.audits[prop];
 
-			date.innerHTML = audit.date;
-			time.innerHTML = audit.time;
-			entryTotal.innerHTML = audit.entryTotal;
-			newEntries.innerHTML = audit.newEntries || "0";
+			var h2 = document.createElement('h2');
+			h2.innerHTML = prop;
+			content.appendChild(h2);
 
-			tr.appendChild( date );
-			tr.appendChild( time );
-			tr.appendChild( entryTotal );
-			tr.appendChild( newEntries );
+			var table = document.createElement("table");
+			content.appendChild(table);
 
-			table.appendChild( tr );
+			for (var prp in day) {
+				var count = day[ prp ];
+				if (!count) continue;
+
+				var tr = document.createElement('tr');
+				table.appendChild(tr);
+
+				var time = document.createElement('td');
+				time.innerHTML = prp;
+
+				var newEntries = document.createElement('td');
+				newEntries.innerHTML = count;
+
+				tr.appendChild( time );
+				tr.appendChild( newEntries );
+				table.appendChild( tr );
+			}
+
 		}
 
 	}
@@ -94,11 +134,9 @@ var mta = mta || {};
 
 	function setupStationKey( array ) {
 
-		var i, station;
+		var station;
 
-		console.log(array);
-
-		for (i = 0, len = array.length; i < len; i++) {
+		for (var i = 0, len = array.length; i < len; i++) {
 			var entry = array[i];
 
 			station = {};
@@ -118,43 +156,127 @@ var mta = mta || {};
 		// there can be more than one name per area (Whitehall & South Ferry share an area)
 		// there can also be more than one area per name (Times Sq has multiple areas)
 		// here we just take the name of the first entry of each area
-		for (i = 0, len = array.length; i < len; i++) {
-			station = array[i];
-			array[i] = station[0];
+		for (var prop in array) {
+			if (array.hasOwnProperty(prop)) {
+				array[prop] = array[prop][0];
+			}
 		}
 
 		return array;
 	}
+
+
+	// The files have audits split somewhat arbitrarily.
+	// So this code combines them by turnstile.
+	function combineStations( array ) {
+
+		//// Group all the objects with the same area, unit, and subunit name
+		var groups = _.groupBy( array, function(t) {
+			return t.name + " | " + t.lines;
+		});
+
+		//// Convert into arrays
+		groups = _.toArray( groups );
+
+		_.each(groups, function(station, i) {
+
+			// create a new object to represent the turnstile
+			// complete with id and an array of its audits
+			var obj = {};
+			obj.name = station[0].name;
+			obj.lines = station[0].lines;
+			obj.audits = [];
+			_.each(station, function(turnstile) {
+
+				_.each(turnstile.audits, function(audit){
+					obj.audits = obj.audits.concat( audit );
+				});
+
+			});
+
+			obj.audits = sortAuditsByTime( obj.audits );
+
+			groups[ i ] = obj;
+		});
+
+		return groups;
+
+	}
+
+
+	function sortAuditsByTime( audits ) {
+
+		// sort by date first
+		var dates = _.groupBy(audits, function(audit) {
+			return audit.date;
+		});
+
+		// go through each date sorting by time
+		for (var prop in dates) {
+			if (dates.hasOwnProperty(prop)) {
+				var date = dates[ prop ];
+				var times = _.groupBy(date, function(obj) {
+					return obj.time;
+				});
+
+				for (var prp in times) {
+					var time = times[prp];
+					var total = 0;
+
+					_.each(time, function(audit){
+						if (audit.newEntries && audit.desc === "REGULAR") {
+							total += audit.newEntries;
+						}
+					});
+
+					times[prp] = total;
+
+				}
+
+				dates[ prop ] = times;
+
+			}
+		}
+
+		return dates;
+
+	}
+
 
 	// The files have audits split somewhat arbitrarily.
 	// So this code combines them by turnstile.
 	function combineAudits( array ) {
 
 		//// Group all the objects with the same area, unit, and subunit name
-		var data = _.groupBy( array, function(t) {
+		var groups = _.groupBy( array, function(t) {
 			return t.area + " " + t.unit + " " + t.subunit;
 		});
 
 		//// Convert into arrays
-		data = _.toArray( data );
+		groups = _.toArray( groups );
 
-		_.each(data, function(turnstile, i) {
+		// Deletes the final 'false' value if there is one
+		if (!groups[groups.length - 1][0]) {
+			groups.length -= 1;
+		}
+
+		_.each(groups, function(turnstile, i) {
 
 			// create a new object to represent the turnstile
 			// complete with id and an array of its audits
 			var obj = {};
 			obj.id = turnstile[0].area + ' ' + turnstile[0].unit + ' ' + turnstile[0].subunit;
-			//obj.name = data.station[ turnstile[0].area ];
+			obj.name = data.station[ turnstile[0].unit ].name;
+			obj.lines = data.station[ turnstile[0].unit ].lines;
 			obj.audits = [];
 			_.each(turnstile, function(dataSet) {
 				obj.audits = obj.audits.concat( dataSet.audits );
 			});
 
-			data[ i ] = obj;
-
+			groups[ i ] = obj;
 		});
 
-		return data;
+		return groups;
 
 	}
 
