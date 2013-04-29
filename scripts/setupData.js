@@ -48,11 +48,9 @@ mta.parseAndSaveData = function() {
 		data.turnstile = combineStations( data.turnstile );
 
 		var h1 = document.createElement('h1');
-		h1.innerHTML = 'All loaded! Use the arrow keys to cycle through entry data.';
+		h1.innerHTML = 'All loaded!';
 		content.innerHTML = "";
 		content.appendChild(h1);
-
-		$('.loading').removeClass('loading');
 
 		// _.each(data.turnstile, function(station) {
 		// 	mta.stations.add( station );

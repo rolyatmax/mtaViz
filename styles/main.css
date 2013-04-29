@@ -13,12 +13,12 @@ html, body {
 }
 
 h1 {
-	margin-left: 50px;
+	margin: 50px 0 0 60px;
 	line-height: 1.1em;
 }
 
 #content h1 {
-	margin: 0;
+	margin: 20px 0 0 0;
 }
 
 #container {
@@ -39,6 +39,10 @@ h1 {
 
 #parseAndSaveData:hover {
 	opacity: 1;
+}
+
+h4 {
+	margin: 3px 0 0 60px;
 }
 
 .clearfix:after {
