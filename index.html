@@ -8,41 +8,28 @@
 	</head>
 	<body>
 		<div id="container">
+			<h1>MTA Turnstile Visualization</h1>
+			<a id="parseAndSaveData" href="#">Load in and parse data</a>
 			<div id="content">
-				<h1>MTA Turnstile Visualization</h1>
+				<h1 class="loaded">All loaded! Use the arrow keys to cycle through entry data.</h1>
 			</div>
 		</div>
 		<script src="scripts/libs/Markdown.Converter.js"></script>
 		<script src="scripts/libs/info.js"></script>
-		<script>
-			window.define = function(factory) {
-				try{ delete window.define; } catch(e){ window.define = void 0; } // IE
-				window.when = factory();
-			};
-			window.define.amd = {};
-		</script>
-		<script src="scripts/libs/when.js"></script>
-		<!-- // <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script> -->
+
+		<script src="scripts/libs/jquery.min.js"></script>
 		<script src="scripts/libs/underscore.js"></script>
+		<script src="scripts/libs/backbone.js"></script>
 		<script src="scripts/utils.js"></script>
 
+		<script src="scripts/models/station.js"></script>
+		<script src="scripts/collections/stations.js"></script>
+		<script src="scripts/views/appView.js"></script>
+		<script src="scripts/views/stationView.js"></script>
+
 		<script src="scripts/libs/d3.js"></script>
+		<script src="scripts/setupData.js"></script>
 		<script src="scripts/main.js"></script>
 
-		<script>
-
-			(function(){
-
-				//// Setup Info Section
-				new Info({
-					url: "README.md",
-					keyTrigger: true
-				});
-
-				mta.init();
-
-			}());
-
-		</script>
 	</body>
 </html>

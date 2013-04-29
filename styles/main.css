@@ -12,13 +12,33 @@ html, body {
 	width: 85%;
 }
 
-#content h1 {
+h1 {
+	margin-left: 50px;
 	line-height: 1.1em;
+}
+
+#content h1 {
+	margin: 0;
 }
 
 #container {
 	position: relative;
 	z-index: 1;
+}
+
+#parseAndSaveData {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: #374257;
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+#parseAndSaveData:hover {
+	opacity: 1;
 }
 
 .clearfix:after {
