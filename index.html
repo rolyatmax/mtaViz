@@ -1,48 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<title>MTA Turnstile Visualization</title>
+    <head>
+        <title>CitiBike Data</title>
+        <link rel="stylesheet" href="style/info.css">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <div id="info" class="info_container"></div>
+        <div id="content"></div>
+        <div id="container" class="content_wrapper">
+            <h1>MTA<small>Taylor Baldwin</small></h1>
+            <div class="timeslice">
+                October 10, 2013 | 1AM
+            </div>
+            <div id="curtain"></div>
+        </div>
+        <script src="js/libs/info.js"></script>
+        <script src="js/libs/Markdown.Converter.js"></script>
+        <script src="js/libs/jquery.js"></script>
+        <script src="js/libs/underscore.js"></script>
+        <script src="js/libs/d3.min.js"></script>
+        <script src="js/libs/topojson.v1.min.js"></script>
+        <script src="js/libs/sketch.min.js"></script>
 
-		<link rel="stylesheet" href="styles/info.css">
-		<link rel="stylesheet" href="styles/main.css">
-	</head>
-	<body>
-		<div id="container">
-			<div id="content">
-				<h1>MTA Turnstile Visualization</h1>
-			</div>
-		</div>
-		<script src="scripts/libs/Markdown.Converter.js"></script>
-		<script src="scripts/libs/info.js"></script>
-		<script>
-			window.define = function(factory) {
-				try{ delete window.define; } catch(e){ window.define = void 0; } // IE
-				window.when = factory();
-			};
-			window.define.amd = {};
-		</script>
-		<script src="scripts/libs/when.js"></script>
-		<!-- // <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script> -->
-		<script src="scripts/libs/underscore.js"></script>
-		<script src="scripts/utils.js"></script>
+        <script src="js/script.js"></script>
+        <script src="scripts/utils.js"></script>
+        <script src="scripts/main.js"></script>
+        <script>
+        
+            new Info({
+                url: 'README.md',
+                el: 'info',
+                container: 'container',
+                keyTrigger: true
+            });
 
-		<script src="scripts/libs/d3.js"></script>
-		<script src="scripts/main.js"></script>
+        </script>
+        <script type="text/javascript">
 
-		<script>
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-36884625-1']);
+          _gaq.push(['_trackPageview']);
 
-			(function(){
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
 
-				//// Setup Info Section
-				new Info({
-					url: "README.md",
-					keyTrigger: true
-				});
-
-				mta.init();
-
-			}());
-
-		</script>
-	</body>
+        </script>
+    </body>
 </html>

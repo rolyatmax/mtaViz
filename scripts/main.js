@@ -1,30 +1,24 @@
+var fs = require('fs');
+var _und = require('underscore');
+
 var mta = mta || {};
 
 (function() {
 
 	'use strict';
 
-	var urls = ['data/turnstile_130420.csv', 'data/turnstile_130413.csv',
-				'data/turnstile_130406.csv', 'data/turnstile_130330.csv',
-				'data/turnstile_130323.csv', 'data/turnstile_130316.csv',
-				'data/turnstile_130309.csv', 'data/turnstile_130302.csv',
-				'data/turnstile_121110.csv', 'data/turnstile_121103.csv'];
+	var urls = ['raw/turnstile_130420.csv', 'raw/turnstile_130413.csv',
+				'raw/turnstile_130406.csv', 'raw/turnstile_130330.csv',
+				'raw/turnstile_130323.csv', 'raw/turnstile_130316.csv',
+				'raw/turnstile_130309.csv', 'raw/turnstile_130302.csv',
+				'raw/turnstile_121110.csv', 'raw/turnstile_121103.csv'];
 
-	var content = document.getElementById("content");
 	var data = {};
-	var stationURL = 'data/Remote-Booth-Station.csv';
-	var eventsBound = false;
-	var currentStationIndex = 0;
+	var stationURL = 'raw/Remote-Booth-Station.csv';
 
 	function init(turnstileURL) {
 
-		turnstileURL = turnstileURL || 'data/turnstile_130420.csv';
-
-		content.innerHTML = "";
-
-		var h1 = document.createElement('h1');
-		h1.innerHTML = "Please wait while we process MTA data.";
-		content.appendChild(h1);
+		turnstileURL = turnstileURL || 'raw/turnstile_130420.csv';
 
 		// load in csv files, parse and save them
 		var prom = loadData( turnstileURL ).then(function(parsed){
@@ -35,7 +29,7 @@ var mta = mta || {};
 			data.station = parsed;
 		});
 
-		when(prom, prom2).then( main );
+		$.when(prom, prom2).then( main );
 	}
 
 	function main() {
@@ -47,85 +41,13 @@ var mta = mta || {};
 		data.turnstile = addNewEntryData( data.turnstile );
 		data.turnstile = combineStations( data.turnstile );
 
-		bindEvents();
-
-		var h1 = document.createElement('h1');
-		h1.innerHTML = "All loaded! Use the arrow keys to cycle through entry data.";
-		content.innerHTML = "";
-		content.appendChild(h1);
 
 		console.log("DONE");
 	}
 
-	function bindEvents() {
-		if (eventsBound) return;
-
-		document.addEventListener('keydown', onKeydown);
-
-		eventsBound = true;
-
-		function onKeydown(e) {
-
-			if (e.which == 39 || e.which == 40) { // up or left
-				e.preventDefault();
-				currentStationIndex++;
-				render();
-			}
-			if (e.which == 37 || e.which == 38) { // down or right
-				e.preventDefault();
-				currentStationIndex--;
-				if (currentStationIndex < 0) currentStationIndex = 0;
-				render();
-			}
-		}
-	}
-
-	function render( obj ) {
-
-		var len = data.turnstile.length;
-		obj = obj || data.turnstile[ currentStationIndex % len ];
-
-		content.innerHTML = "";
-
-		var h1 = document.createElement('h1');
-		h1.innerHTML = obj.name + " | " + obj.lines;
-		content.appendChild(h1);
-
-		for (var prop in obj.audits) {
-			var day = obj.audits[prop];
-
-			var h2 = document.createElement('h2');
-			h2.innerHTML = prop;
-			content.appendChild(h2);
-
-			var table = document.createElement("table");
-			content.appendChild(table);
-
-			for (var prp in day) {
-				var count = day[ prp ];
-				if (!count) continue;
-
-				var tr = document.createElement('tr');
-				table.appendChild(tr);
-
-				var time = document.createElement('td');
-				time.innerHTML = prp;
-
-				var newEntries = document.createElement('td');
-				newEntries.innerHTML = count;
-
-				tr.appendChild( time );
-				tr.appendChild( newEntries );
-				table.appendChild( tr );
-			}
-
-		}
-
-	}
-
 
 	function loadData( url, callback ) {
-		var deferred = when.defer();
+		var deferred = $.Deferred();
 		utils.parseCSV({
 			url: url,
 			callback: function(parsed, res) {
@@ -133,7 +55,7 @@ var mta = mta || {};
 				if (callback) callback(parsed, res);
 			}
 		});
-		return deferred.promise;
+		return deferred.promise();
 	}
 
 	// From an array into an object
@@ -351,7 +273,6 @@ var mta = mta || {};
 	mta = {
 		init: init,
 		data: data,
-		render: render,
 		urls: urls
 	};
 
