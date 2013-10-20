@@ -2,2401 +2,2881 @@
   "R001": {
     "area": "R001",
     "name": "WHITEHALL ST",
-    "lines": "R1"
+    "lines": "R1",
+    "id": "WHITEHALL ST R1"
   },
   "R002": {
     "area": "R002",
     "name": "FULTON ST",
-    "lines": "ACJZ2345"
+    "lines": "ACJZ2345",
+    "id": "FULTON ST ACJZ2345"
   },
   "R003": {
     "area": "R003",
     "name": "CYPRESS HILLS",
-    "lines": "J"
+    "lines": "J",
+    "id": "CYPRESS HILLS J"
   },
   "R004": {
     "area": "R004",
     "name": "ELDERTS LANE",
-    "lines": "JZ"
+    "lines": "JZ",
+    "id": "ELDERTS LANE JZ"
   },
   "R005": {
     "area": "R005",
     "name": "FOREST PARKWAY",
-    "lines": "J"
+    "lines": "J",
+    "id": "FOREST PARKWAY J"
   },
   "R006": {
     "area": "R006",
     "name": "WOODHAVEN BLVD",
-    "lines": "JZ"
+    "lines": "JZ",
+    "id": "WOODHAVEN BLVD JZ"
   },
   "R007": {
     "area": "R007",
     "name": "104 ST",
-    "lines": "JZ"
+    "lines": "JZ",
+    "id": "104 ST JZ"
   },
   "R008": {
     "area": "R008",
     "name": "111 ST",
-    "lines": "J"
+    "lines": "J",
+    "id": "111 ST J"
   },
   "R009": {
     "area": "R009",
     "name": "121 ST",
-    "lines": "JZ"
+    "lines": "JZ",
+    "id": "121 ST JZ"
   },
   "R010": {
     "area": "R010",
     "name": "42 ST-PA BUS TE",
-    "lines": "ACENQRS1237"
+    "lines": "ACENQRS1237",
+    "id": "42 ST-PA BUS TE ACENQRS1237"
   },
   "R011": {
     "area": "R011",
     "name": "42 ST-PA BUS TE",
-    "lines": "ACENQRS1237"
+    "lines": "ACENQRS1237",
+    "id": "42 ST-PA BUS TE ACENQRS1237"
   },
   "R012": {
     "area": "R012",
     "name": "34 ST-PENN STA",
-    "lines": "ACE"
+    "lines": "ACE",
+    "id": "34 ST-PENN STA ACE"
   },
   "R013": {
     "area": "R013",
     "name": "34 ST-PENN STA",
-    "lines": "ACE"
+    "lines": "ACE",
+    "id": "34 ST-PENN STA ACE"
   },
   "R014": {
     "area": "R014",
     "name": "FULTON ST",
-    "lines": "ACJZ2345"
+    "lines": "ACJZ2345",
+    "id": "FULTON ST ACJZ2345"
   },
   "R015": {
     "area": "R015",
     "name": "5 AVE-53 ST",
-    "lines": "EM"
+    "lines": "EM",
+    "id": "5 AVE-53 ST EM"
   },
   "R016": {
     "area": "R016",
     "name": "LEXINGTON-53 ST",
-    "lines": "EM6"
+    "lines": "EM6",
+    "id": "LEXINGTON-53 ST EM6"
   },
   "R017": {
     "area": "R017",
     "name": "LEXINGTON-53 ST",
-    "lines": "EM6"
+    "lines": "EM6",
+    "id": "LEXINGTON-53 ST EM6"
   },
   "R018": {
     "area": "R018",
     "name": "ROOSEVELT AVE",
-    "lines": "EFMR7"
+    "lines": "EFMR7",
+    "id": "ROOSEVELT AVE EFMR7"
   },
   "R019": {
     "area": "R019",
     "name": "JAMAICA-179 ST",
-    "lines": "F"
+    "lines": "F",
+    "id": "JAMAICA-179 ST F"
   },
   "R020": {
     "area": "R020",
     "name": "47-50 ST-ROCK",
-    "lines": "BDFM"
+    "lines": "BDFM",
+    "id": "47-50 ST-ROCK BDFM"
   },
   "R021": {
     "area": "R021",
     "name": "42 ST-BRYANT PK",
-    "lines": "BDFM7"
+    "lines": "BDFM7",
+    "id": "42 ST-BRYANT PK BDFM7"
   },
   "R022": {
     "area": "R022",
     "name": "34 ST-HERALD SQ",
-    "lines": "BDFMNQR"
+    "lines": "BDFMNQR",
+    "id": "34 ST-HERALD SQ BDFMNQR"
   },
   "R023": {
     "area": "R023",
     "name": "34 ST-HERALD SQ",
-    "lines": "BDFMNQR"
+    "lines": "BDFMNQR",
+    "id": "34 ST-HERALD SQ BDFMNQR"
   },
   "R024": {
     "area": "R024",
     "name": "SUTPHIN BLVD",
-    "lines": "EJZ"
+    "lines": "EJZ",
+    "id": "SUTPHIN BLVD EJZ"
   },
   "R025": {
     "area": "R025",
     "name": "JAMAICA CENTER",
-    "lines": "EJZ"
+    "lines": "EJZ",
+    "id": "JAMAICA CENTER EJZ"
   },
   "R027": {
     "area": "R027",
     "name": "WALL ST",
-    "lines": "23"
+    "lines": "23",
+    "id": "WALL ST 23"
   },
   "R028": {
     "area": "R028",
     "name": "FULTON ST",
-    "lines": "2345ACJZ"
+    "lines": "2345ACJZ",
+    "id": "FULTON ST 2345ACJZ"
   },
   "R029": {
     "area": "R029",
     "name": "PARK PLACE",
-    "lines": "23ACE"
+    "lines": "23ACE",
+    "id": "PARK PLACE 23ACE"
   },
   "R030": {
     "area": "R030",
     "name": "CHAMBERS ST",
-    "lines": "123"
+    "lines": "123",
+    "id": "CHAMBERS ST 123"
   },
   "R031": {
     "area": "R031",
     "name": "34 ST-PENN STA",
-    "lines": "123"
+    "lines": "123",
+    "id": "34 ST-PENN STA 123"
   },
   "R032": {
     "area": "R032",
     "name": "42 ST-TIMES SQ",
-    "lines": "1237ACENQRS"
+    "lines": "1237ACENQRS",
+    "id": "42 ST-TIMES SQ 1237ACENQRS"
   },
   "R033": {
     "area": "R033",
     "name": "42 ST-TIMES SQ",
-    "lines": "1237ACENQRS"
+    "lines": "1237ACENQRS",
+    "id": "42 ST-TIMES SQ 1237ACENQRS"
   },
   "R034": {
     "area": "R034",
     "name": "125 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "125 ST 1"
   },
   "R035": {
     "area": "R035",
     "name": "168 ST-BROADWAY",
-    "lines": "1AC"
+    "lines": "1AC",
+    "id": "168 ST-BROADWAY 1AC"
   },
   "R036": {
     "area": "R036",
     "name": "DYCKMAN ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "DYCKMAN ST 1"
   },
   "R037": {
     "area": "R037",
     "name": "207 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "207 ST 1"
   },
   "R038": {
     "area": "R038",
     "name": "215 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "215 ST 1"
   },
   "R039": {
     "area": "R039",
     "name": "MARBLE HILL-225",
-    "lines": "1"
+    "lines": "1",
+    "id": "MARBLE HILL-225 1"
   },
   "R040": {
     "area": "R040",
     "name": "231 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "231 ST 1"
   },
   "R041": {
     "area": "R041",
     "name": "BOWLING GREEN",
-    "lines": "45"
+    "lines": "45",
+    "id": "BOWLING GREEN 45"
   },
   "R042": {
     "area": "R042",
     "name": "BOWLING GREEN",
-    "lines": "45"
+    "lines": "45",
+    "id": "BOWLING GREEN 45"
   },
   "R043": {
     "area": "R043",
     "name": "WALL ST",
-    "lines": "45"
+    "lines": "45",
+    "id": "WALL ST 45"
   },
   "R044": {
     "area": "R044",
     "name": "BROOKLYN BRIDGE",
-    "lines": "456JZ"
+    "lines": "456JZ",
+    "id": "BROOKLYN BRIDGE 456JZ"
   },
   "R045": {
     "area": "R045",
     "name": "42 ST-GRD CNTRL",
-    "lines": "4567S"
+    "lines": "4567S",
+    "id": "42 ST-GRD CNTRL 4567S"
   },
   "R046": {
     "area": "R046",
     "name": "42 ST-GRD CNTRL",
-    "lines": "4567S"
+    "lines": "4567S",
+    "id": "42 ST-GRD CNTRL 4567S"
   },
   "R047": {
     "area": "R047",
     "name": "42 ST-GRD CNTRL",
-    "lines": "4567S"
+    "lines": "4567S",
+    "id": "42 ST-GRD CNTRL 4567S"
   },
   "R048": {
     "area": "R048",
     "name": "42 ST-GRD CNTRL",
-    "lines": "4567S"
+    "lines": "4567S",
+    "id": "42 ST-GRD CNTRL 4567S"
   },
   "R049": {
     "area": "R049",
     "name": "51 ST",
-    "lines": "6"
+    "lines": "6",
+    "id": "51 ST 6"
   },
   "R050": {
     "area": "R050",
     "name": "59 ST",
-    "lines": "456NQR"
+    "lines": "456NQR",
+    "id": "59 ST 456NQR"
   },
   "R051": {
     "area": "R051",
     "name": "59 ST",
-    "lines": "456NQR"
+    "lines": "456NQR",
+    "id": "59 ST 456NQR"
   },
   "R052": {
     "area": "R052",
     "name": "WOODLAWN ROAD",
-    "lines": "4"
+    "lines": "4",
+    "id": "WOODLAWN ROAD 4"
   },
   "R053": {
     "area": "R053",
     "name": "149 ST-3 AVE",
-    "lines": "25"
+    "lines": "25",
+    "id": "149 ST-3 AVE 25"
   },
   "R054": {
     "area": "R054",
     "name": "5 AVE-BRYANT PK",
-    "lines": "7BDFM"
+    "lines": "7BDFM",
+    "id": "5 AVE-BRYANT PK 7BDFM"
   },
   "R055": {
     "area": "R055",
     "name": "MAIN ST",
-    "lines": "7"
+    "lines": "7",
+    "id": "MAIN ST 7"
   },
   "R056": {
     "area": "R056",
     "name": "NEVINS ST",
-    "lines": "2345"
+    "lines": "2345",
+    "id": "NEVINS ST 2345"
   },
   "R057": {
     "area": "R057",
     "name": "ATLANTIC AVE",
-    "lines": "2345BDNQR"
+    "lines": "2345BDNQR",
+    "id": "ATLANTIC AVE 2345BDNQR"
   },
   "R058": {
     "area": "R058",
     "name": "BERGEN ST",
-    "lines": "23"
+    "lines": "23",
+    "id": "BERGEN ST 23"
   },
   "R059": {
     "area": "R059",
     "name": "GRAND ARMY PLAZ",
-    "lines": "23"
+    "lines": "23",
+    "id": "GRAND ARMY PLAZ 23"
   },
   "R060": {
     "area": "R060",
     "name": "EASTERN PKWY",
-    "lines": "23"
+    "lines": "23",
+    "id": "EASTERN PKWY 23"
   },
   "R061": {
     "area": "R061",
     "name": "NOSTRAND AVE",
-    "lines": "3"
+    "lines": "3",
+    "id": "NOSTRAND AVE 3"
   },
   "R062": {
     "area": "R062",
     "name": "CROWN HTS-UTICA",
-    "lines": "34"
+    "lines": "34",
+    "id": "CROWN HTS-UTICA 34"
   },
   "R063": {
     "area": "R063",
     "name": "SUTTER AVE",
-    "lines": "3"
+    "lines": "3",
+    "id": "SUTTER AVE 3"
   },
   "R064": {
     "area": "R064",
     "name": "SARATOGA AVE",
-    "lines": "3"
+    "lines": "3",
+    "id": "SARATOGA AVE 3"
   },
   "R065": {
     "area": "R065",
     "name": "ROCKAWAY AVE",
-    "lines": "3"
+    "lines": "3",
+    "id": "ROCKAWAY AVE 3"
   },
   "R066": {
     "area": "R066",
     "name": "JUNIUS ST",
-    "lines": "3"
+    "lines": "3",
+    "id": "JUNIUS ST 3"
   },
   "R067": {
     "area": "R067",
     "name": "PENNSYLVANIA AV",
-    "lines": "3"
+    "lines": "3",
+    "id": "PENNSYLVANIA AV 3"
   },
   "R068": {
     "area": "R068",
     "name": "VAN SICLEN AVE",
-    "lines": "3"
+    "lines": "3",
+    "id": "VAN SICLEN AVE 3"
   },
   "R069": {
     "area": "R069",
     "name": "NEW LOTS AVE",
-    "lines": "3"
+    "lines": "3",
+    "id": "NEW LOTS AVE 3"
   },
   "R070": {
     "area": "R070",
     "name": "ST. GEORGE",
-    "lines": "1"
+    "lines": "1",
+    "id": "ST. GEORGE 1"
   },
   "R076": {
     "area": "R076",
     "name": "2 BDWY CUST SRV",
-    "lines": "45"
+    "lines": "45",
+    "id": "2 BDWY CUST SRV 45"
   },
   "R079": {
     "area": "R079",
     "name": "5 AVE-59 ST",
-    "lines": "NQR"
+    "lines": "NQR",
+    "id": "5 AVE-59 ST NQR"
   },
   "R080": {
     "area": "R080",
     "name": "57 ST-7 AVE",
-    "lines": "NQR"
+    "lines": "NQR",
+    "id": "57 ST-7 AVE NQR"
   },
   "R081": {
     "area": "R081",
     "name": "49 ST-7 AVE",
-    "lines": "NQR"
+    "lines": "NQR",
+    "id": "49 ST-7 AVE NQR"
   },
   "R082": {
     "area": "R082",
     "name": "28 ST-BROADWAY",
-    "lines": "NR"
+    "lines": "NR",
+    "id": "28 ST-BROADWAY NR"
   },
   "R083": {
     "area": "R083",
     "name": "23 ST-5 AVE",
-    "lines": "NR"
+    "lines": "NR",
+    "id": "23 ST-5 AVE NR"
   },
   "R084": {
     "area": "R084",
     "name": "59 ST-COLUMBUS",
-    "lines": "1ABCD"
+    "lines": "1ABCD",
+    "id": "59 ST-COLUMBUS 1ABCD"
   },
   "R085": {
     "area": "R085",
     "name": "8 ST-B'WAY NYU",
-    "lines": "NR"
+    "lines": "NR",
+    "id": "8 ST-B'WAY NYU NR"
   },
   "R086": {
     "area": "R086",
     "name": "PRINCE ST-B'WAY",
-    "lines": "NR"
+    "lines": "NR",
+    "id": "PRINCE ST-B'WAY NR"
   },
   "R087": {
     "area": "R087",
     "name": "MURRAY ST-B'WAY",
-    "lines": "R"
+    "lines": "R",
+    "id": "MURRAY ST-B'WAY R"
   },
   "R088": {
     "area": "R088",
     "name": "CORTLANDT ST",
-    "lines": "R"
+    "lines": "R",
+    "id": "CORTLANDT ST R"
   },
   "R089": {
     "area": "R089",
     "name": "JAY ST-METROTEC",
-    "lines": "R"
+    "lines": "R",
+    "id": "JAY ST-METROTEC R"
   },
   "R090": {
     "area": "R090",
     "name": "BEEBE-39 AVE",
-    "lines": "NQ"
+    "lines": "NQ",
+    "id": "BEEBE-39 AVE NQ"
   },
   "R091": {
     "area": "R091",
     "name": "WASHINGTON-36 A",
-    "lines": "NQ"
+    "lines": "NQ",
+    "id": "WASHINGTON-36 A NQ"
   },
   "R092": {
     "area": "R092",
     "name": "BROADWAY-31 ST",
-    "lines": "NQ"
+    "lines": "NQ",
+    "id": "BROADWAY-31 ST NQ"
   },
   "R093": {
     "area": "R093",
     "name": "GRAND-30 AVE",
-    "lines": "NQ"
+    "lines": "NQ",
+    "id": "GRAND-30 AVE NQ"
   },
   "R094": {
     "area": "R094",
     "name": "HOYT ST-ASTORIA",
-    "lines": "NQ"
+    "lines": "NQ",
+    "id": "HOYT ST-ASTORIA NQ"
   },
   "R095": {
     "area": "R095",
     "name": "DITMARS BL-31 S",
-    "lines": "NQ"
+    "lines": "NQ",
+    "id": "DITMARS BL-31 S NQ"
   },
   "R096": {
     "area": "R096",
     "name": "82 ST-JACKSON H",
-    "lines": "7"
+    "lines": "7",
+    "id": "82 ST-JACKSON H 7"
   },
   "R097": {
     "area": "R097",
     "name": "JUNCTION BLVD",
-    "lines": "7"
+    "lines": "7",
+    "id": "JUNCTION BLVD 7"
   },
   "R098": {
     "area": "R098",
     "name": "CHURCH AVE",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "CHURCH AVE BQ"
   },
   "R099": {
     "area": "R099",
     "name": "DEKALB AVE",
-    "lines": "BDNQR"
+    "lines": "BDNQR",
+    "id": "DEKALB AVE BDNQR"
   },
   "R100": {
     "area": "R100",
     "name": "METROPOLITAN AV",
-    "lines": "M"
+    "lines": "M",
+    "id": "METROPOLITAN AV M"
   },
   "R101": {
     "area": "R101",
     "name": "145 ST",
-    "lines": "ABCD"
+    "lines": "ABCD",
+    "id": "145 ST ABCD"
   },
   "R102": {
     "area": "R102",
     "name": "125 ST",
-    "lines": "ACBD"
+    "lines": "ACBD",
+    "id": "125 ST ACBD"
   },
   "R103": {
     "area": "R103",
     "name": "BROADWAY-ENY",
-    "lines": "ACJLZ"
+    "lines": "ACJLZ",
+    "id": "BROADWAY-ENY ACJLZ"
   },
   "R104": {
     "area": "R104",
     "name": "167 ST",
-    "lines": "BD"
+    "lines": "BD",
+    "id": "167 ST BD"
   },
   "R105": {
     "area": "R105",
     "name": "14 ST",
-    "lines": "123FLM"
+    "lines": "123FLM",
+    "id": "14 ST 123FLM"
   },
   "R106": {
     "area": "R106",
     "name": "CASTLE HILL AVE",
-    "lines": "6"
+    "lines": "6",
+    "id": "CASTLE HILL AVE 6"
   },
   "R107": {
     "area": "R107",
     "name": "WESTCHESTER SQ",
-    "lines": "6"
+    "lines": "6",
+    "id": "WESTCHESTER SQ 6"
   },
   "R108": {
     "area": "R108",
     "name": "BOROUGH HALL/CT",
-    "lines": "2345R"
+    "lines": "2345R",
+    "id": "BOROUGH HALL/CT 2345R"
   },
   "R109": {
     "area": "R109",
     "name": "CHURCH AVE",
-    "lines": "25"
+    "lines": "25",
+    "id": "CHURCH AVE 25"
   },
   "R110": {
     "area": "R110",
     "name": "FLATBUSH AVE",
-    "lines": "25"
+    "lines": "25",
+    "id": "FLATBUSH AVE 25"
   },
   "R111": {
     "area": "R111",
     "name": "23 ST",
-    "lines": "CE"
+    "lines": "CE",
+    "id": "23 ST CE"
   },
   "R112": {
     "area": "R112",
     "name": "FORDHAM ROAD",
-    "lines": "BD"
+    "lines": "BD",
+    "id": "FORDHAM ROAD BD"
   },
   "R113": {
     "area": "R113",
     "name": "7 AVE-53 ST",
-    "lines": "BDE"
+    "lines": "BDE",
+    "id": "7 AVE-53 ST BDE"
   },
   "R114": {
     "area": "R114",
     "name": "PARSONS BLVD",
-    "lines": "F"
+    "lines": "F",
+    "id": "PARSONS BLVD F"
   },
   "R115": {
     "area": "R115",
     "name": "169 ST",
-    "lines": "F"
+    "lines": "F",
+    "id": "169 ST F"
   },
   "R116": {
     "area": "R116",
     "name": "50 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "50 ST 1"
   },
   "R117": {
     "area": "R117",
     "name": "242 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "242 ST 1"
   },
   "R118": {
     "area": "R118",
     "name": "CANAL ST",
-    "lines": "JNQRZ6"
+    "lines": "JNQRZ6",
+    "id": "CANAL ST JNQRZ6"
   },
   "R119": {
     "area": "R119",
     "name": "FORDHAM ROAD",
-    "lines": "4"
+    "lines": "4",
+    "id": "FORDHAM ROAD 4"
   },
   "R120": {
     "area": "R120",
     "name": "MORRISON AVE",
-    "lines": "6"
+    "lines": "6",
+    "id": "MORRISON AVE 6"
   },
   "R121": {
     "area": "R121",
     "name": "QUEENSBORO PLZ",
-    "lines": "7NQ"
+    "lines": "7NQ",
+    "id": "QUEENSBORO PLZ 7NQ"
   },
   "R122": {
     "area": "R122",
     "name": "90 ST-ELMHURST",
-    "lines": "7"
+    "lines": "7",
+    "id": "90 ST-ELMHURST 7"
   },
   "R123": {
     "area": "R123",
     "name": "FRANKLIN AVE",
-    "lines": "2345S"
+    "lines": "2345S",
+    "id": "FRANKLIN AVE 2345S"
   },
   "R124": {
     "area": "R124",
     "name": "KINGSTON AVE",
-    "lines": "3"
+    "lines": "3",
+    "id": "KINGSTON AVE 3"
   },
   "R125": {
     "area": "R125",
     "name": "BROAD ST",
-    "lines": "JZ"
+    "lines": "JZ",
+    "id": "BROAD ST JZ"
   },
   "R126": {
     "area": "R126",
     "name": "175 ST",
-    "lines": "A"
+    "lines": "A",
+    "id": "175 ST A"
   },
   "R127": {
     "area": "R127",
     "name": "JAY ST-METROTEC",
-    "lines": "ACF"
+    "lines": "ACF",
+    "id": "JAY ST-METROTEC ACF"
   },
   "R128": {
     "area": "R128",
     "name": "SUTPHIN BLVD",
-    "lines": "F"
+    "lines": "F",
+    "id": "SUTPHIN BLVD F"
   },
   "R129": {
     "area": "R129",
     "name": "BERGEN ST",
-    "lines": "FG"
+    "lines": "FG",
+    "id": "BERGEN ST FG"
   },
   "R130": {
     "area": "R130",
     "name": "KINGS HIGHWAY",
-    "lines": "F"
+    "lines": "F",
+    "id": "KINGS HIGHWAY F"
   },
   "R131": {
     "area": "R131",
     "name": "23 ST",
-    "lines": "6"
+    "lines": "6",
+    "id": "23 ST 6"
   },
   "R132": {
     "area": "R132",
     "name": "125 ST",
-    "lines": "456"
+    "lines": "456",
+    "id": "125 ST 456"
   },
   "R133": {
     "area": "R133",
     "name": "MOSHOLU PARKWAY",
-    "lines": "4"
+    "lines": "4",
+    "id": "MOSHOLU PARKWAY 4"
   },
   "R134": {
     "area": "R134",
     "name": "HUNTERS PT AVE",
-    "lines": "7"
+    "lines": "7",
+    "id": "HUNTERS PT AVE 7"
   },
   "R135": {
     "area": "R135",
     "name": "NEWKIRK AVE",
-    "lines": "25"
+    "lines": "25",
+    "id": "NEWKIRK AVE 25"
   },
   "R136": {
     "area": "R136",
     "name": "SHEEPSHEAD BAY",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "SHEEPSHEAD BAY BQ"
   },
   "R137": {
     "area": "R137",
     "name": "MYRTLE AVE",
-    "lines": "LM"
+    "lines": "LM",
+    "id": "MYRTLE AVE LM"
   },
   "R138": {
     "area": "R138",
     "name": "W 4 ST-WASH SQ",
-    "lines": "ABCDEFM"
+    "lines": "ABCDEFM",
+    "id": "W 4 ST-WASH SQ ABCDEFM"
   },
   "R139": {
     "area": "R139",
     "name": "CANAL ST",
-    "lines": "ACE"
+    "lines": "ACE",
+    "id": "CANAL ST ACE"
   },
   "R140": {
     "area": "R140",
     "name": "QUEENS PLAZA",
-    "lines": "EMR"
+    "lines": "EMR",
+    "id": "QUEENS PLAZA EMR"
   },
   "R141": {
     "area": "R141",
     "name": "FOREST HILLS-71",
-    "lines": "EFMR"
+    "lines": "EFMR",
+    "id": "FOREST HILLS-71 EFMR"
   },
   "R142": {
     "area": "R142",
     "name": "ESSEX ST",
-    "lines": "FJMZ"
+    "lines": "FJMZ",
+    "id": "ESSEX ST FJMZ"
   },
   "R143": {
     "area": "R143",
     "name": "28 ST",
-    "lines": "6"
+    "lines": "6",
+    "id": "28 ST 6"
   },
   "R144": {
     "area": "R144",
     "name": "96 ST",
-    "lines": "6"
+    "lines": "6",
+    "id": "96 ST 6"
   },
   "R145": {
     "area": "R145",
     "name": "WAKEFIELD-241",
-    "lines": "2"
+    "lines": "2",
+    "id": "WAKEFIELD-241 2"
   },
   "R146": {
     "area": "R146",
     "name": "HUNTS POINT AVE",
-    "lines": "6"
+    "lines": "6",
+    "id": "HUNTS POINT AVE 6"
   },
   "R147": {
     "area": "R147",
     "name": "61 ST/WOODSIDE",
-    "lines": "7"
+    "lines": "7",
+    "id": "61 ST/WOODSIDE 7"
   },
   "R148": {
     "area": "R148",
     "name": "PARKSIDE AVE",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "PARKSIDE AVE BQ"
   },
   "R149": {
     "area": "R149",
     "name": "NEWKIRK AVE",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "NEWKIRK AVE BQ"
   },
   "R150": {
     "area": "R150",
     "name": "AVE U",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "AVE U BQ"
   },
   "R151": {
     "area": "R151",
     "name": "STILLWELL AVE",
-    "lines": "DFNQ"
+    "lines": "DFNQ",
+    "id": "STILLWELL AVE DFNQ"
   },
   "R152": {
     "area": "R152",
     "name": "ROCKAWAY PKY",
-    "lines": "L"
+    "lines": "L",
+    "id": "ROCKAWAY PKY L"
   },
   "R153": {
     "area": "R153",
     "name": "UTICA AVE",
-    "lines": "AC"
+    "lines": "AC",
+    "id": "UTICA AVE AC"
   },
   "R154": {
     "area": "R154",
     "name": "TREMONT AVE",
-    "lines": "BD"
+    "lines": "BD",
+    "id": "TREMONT AVE BD"
   },
   "R155": {
     "area": "R155",
     "name": "KINGSBRIDGE RD",
-    "lines": "BD"
+    "lines": "BD",
+    "id": "KINGSBRIDGE RD BD"
   },
   "R156": {
     "area": "R156",
     "name": "BEDFORD PARK BL",
-    "lines": "BD"
+    "lines": "BD",
+    "id": "BEDFORD PARK BL BD"
   },
   "R157": {
     "area": "R157",
     "name": "NORWOOD-205 ST",
-    "lines": "D"
+    "lines": "D",
+    "id": "NORWOOD-205 ST D"
   },
   "R158": {
     "area": "R158",
     "name": "UNION TPK-KEW G",
-    "lines": "EF"
+    "lines": "EF",
+    "id": "UNION TPK-KEW G EF"
   },
   "R159": {
     "area": "R159",
     "name": "116 ST-COLUMBIA",
-    "lines": "1"
+    "lines": "1",
+    "id": "116 ST-COLUMBIA 1"
   },
   "R160": {
     "area": "R160",
     "name": "ASTOR PLACE",
-    "lines": "6"
+    "lines": "6",
+    "id": "ASTOR PLACE 6"
   },
   "R161": {
     "area": "R161",
     "name": "KINGSBRIDGE RD",
-    "lines": "4"
+    "lines": "4",
+    "id": "KINGSBRIDGE RD 4"
   },
   "R162": {
     "area": "R162",
     "name": "ELDER AVE",
-    "lines": "6"
+    "lines": "6",
+    "id": "ELDER AVE 6"
   },
   "R163": {
     "area": "R163",
     "name": "14 ST-6 AVE",
-    "lines": "FLM123"
+    "lines": "FLM123",
+    "id": "14 ST-6 AVE FLM123"
   },
   "R164": {
     "area": "R164",
     "name": "66 ST-LINCOLN",
-    "lines": "1"
+    "lines": "1",
+    "id": "66 ST-LINCOLN 1"
   },
   "R165": {
     "area": "R165",
     "name": "TOMPKINSVILLE",
-    "lines": "1"
+    "lines": "1",
+    "id": "TOMPKINSVILLE 1"
   },
   "R166": {
     "area": "R166",
     "name": "79 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "79 ST 1"
   },
   "R167": {
     "area": "R167",
     "name": "86 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "86 ST 1"
   },
   "R168": {
     "area": "R168",
     "name": "96 ST",
-    "lines": "123"
+    "lines": "123",
+    "id": "96 ST 123"
   },
   "R169": {
     "area": "R169",
     "name": "137 ST-CITY COL",
-    "lines": "1"
+    "lines": "1",
+    "id": "137 ST-CITY COL 1"
   },
   "R170": {
     "area": "R170",
     "name": "14 ST-UNION SQ",
-    "lines": "LNQR456"
+    "lines": "LNQR456",
+    "id": "14 ST-UNION SQ LNQR456"
   },
   "R171": {
     "area": "R171",
     "name": "7 AVE",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "7 AVE BQ"
   },
   "R172": {
     "area": "R172",
     "name": "BRIGHTON BEACH",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "BRIGHTON BEACH BQ"
   },
   "R173": {
     "area": "R173",
     "name": "INWOOD-207 ST",
-    "lines": "A"
+    "lines": "A",
+    "id": "INWOOD-207 ST A"
   },
   "R174": {
     "area": "R174",
     "name": "181 ST",
-    "lines": "A"
+    "lines": "A",
+    "id": "181 ST A"
   },
   "R175": {
     "area": "R175",
     "name": "8 AVE",
-    "lines": "ACEL"
+    "lines": "ACEL",
+    "id": "8 AVE ACEL"
   },
   "R176": {
     "area": "R176",
     "name": "33 ST",
-    "lines": "6"
+    "lines": "6",
+    "id": "33 ST 6"
   },
   "R177": {
     "area": "R177",
     "name": "68ST-HUNTER COL",
-    "lines": "6"
+    "lines": "6",
+    "id": "68ST-HUNTER COL 6"
   },
   "R178": {
     "area": "R178",
     "name": "77 ST",
-    "lines": "6"
+    "lines": "6",
+    "id": "77 ST 6"
   },
   "R179": {
     "area": "R179",
     "name": "86 ST",
-    "lines": "456"
+    "lines": "456",
+    "id": "86 ST 456"
   },
   "R180": {
     "area": "R180",
     "name": "103 ST",
-    "lines": "6"
+    "lines": "6",
+    "id": "103 ST 6"
   },
   "R181": {
     "area": "R181",
     "name": "110 ST",
-    "lines": "6"
+    "lines": "6",
+    "id": "110 ST 6"
   },
   "R182": {
     "area": "R182",
     "name": "116 ST",
-    "lines": "6"
+    "lines": "6",
+    "id": "116 ST 6"
   },
   "R183": {
     "area": "R183",
     "name": "BEDFORD PARK BL",
-    "lines": "4"
+    "lines": "4",
+    "id": "BEDFORD PARK BL 4"
   },
   "R184": {
     "area": "R184",
     "name": "CORTELYOU ROAD",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "CORTELYOU ROAD BQ"
   },
   "R185": {
     "area": "R185",
     "name": "DYCKMAN-200 ST",
-    "lines": "A"
+    "lines": "A",
+    "id": "DYCKMAN-200 ST A"
   },
   "R186": {
     "area": "R186",
     "name": "86 ST",
-    "lines": "BC"
+    "lines": "BC",
+    "id": "86 ST BC"
   },
   "R187": {
     "area": "R187",
     "name": "81 ST-MUSEUM",
-    "lines": "BC"
+    "lines": "BC",
+    "id": "81 ST-MUSEUM BC"
   },
   "R188": {
     "area": "R188",
     "name": "50 ST",
-    "lines": "CE"
+    "lines": "CE",
+    "id": "50 ST CE"
   },
   "R189": {
     "area": "R189",
     "name": "CHRISTOPHER ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "CHRISTOPHER ST 1"
   },
   "R190": {
     "area": "R190",
     "name": "23 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "23 ST 1"
   },
   "R191": {
     "area": "R191",
     "name": "103 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "103 ST 1"
   },
   "R192": {
     "area": "R192",
     "name": "110 ST-CATHEDRL",
-    "lines": "1"
+    "lines": "1",
+    "id": "110 ST-CATHEDRL 1"
   },
   "R193": {
     "area": "R193",
     "name": "157 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "157 ST 1"
   },
   "R194": {
     "area": "R194",
     "name": "BLEECKER ST",
-    "lines": "6DF"
+    "lines": "6DF",
+    "id": "BLEECKER ST 6DF"
   },
   "R195": {
     "area": "R195",
     "name": "161 ST-YANKEE",
-    "lines": "BD4"
+    "lines": "BD4",
+    "id": "161 ST-YANKEE BD4"
   },
   "R196": {
     "area": "R196",
     "name": "PROSPECT PARK",
-    "lines": "BQS"
+    "lines": "BQS",
+    "id": "PROSPECT PARK BQS"
   },
   "R197": {
     "area": "R197",
     "name": "36 ST",
-    "lines": "DNR"
+    "lines": "DNR",
+    "id": "36 ST DNR"
   },
   "R198": {
     "area": "R198",
     "name": "NOSTRAND AVE",
-    "lines": "AC"
+    "lines": "AC",
+    "id": "NOSTRAND AVE AC"
   },
   "R199": {
     "area": "R199",
     "name": "KINGSTON-THROOP",
-    "lines": "C"
+    "lines": "C",
+    "id": "KINGSTON-THROOP C"
   },
   "R200": {
     "area": "R200",
     "name": "EUCLID AVE",
-    "lines": "AC"
+    "lines": "AC",
+    "id": "EUCLID AVE AC"
   },
   "R201": {
     "area": "R201",
     "name": "WOODHAVEN BLVD",
-    "lines": "MR"
+    "lines": "MR",
+    "id": "WOODHAVEN BLVD MR"
   },
   "R202": {
     "area": "R202",
     "name": "63 DR-REGO PARK",
-    "lines": "MR"
+    "lines": "MR",
+    "id": "63 DR-REGO PARK MR"
   },
   "R203": {
     "area": "R203",
     "name": "23 ST-6 AVE",
-    "lines": "FM"
+    "lines": "FM",
+    "id": "23 ST-6 AVE FM"
   },
   "R204": {
     "area": "R204",
     "name": "CHURCH AVE",
-    "lines": "FG"
+    "lines": "FG",
+    "id": "CHURCH AVE FG"
   },
   "R205": {
     "area": "R205",
     "name": "149 ST-GR CONC",
-    "lines": "245"
+    "lines": "245",
+    "id": "149 ST-GR CONC 245"
   },
   "R206": {
     "area": "R206",
     "name": "125 ST",
-    "lines": "23"
+    "lines": "23",
+    "id": "125 ST 23"
   },
   "R207": {
     "area": "R207",
     "name": "135 ST",
-    "lines": "23"
+    "lines": "23",
+    "id": "135 ST 23"
   },
   "R208": {
     "area": "R208",
     "name": "103 ST-CORONA",
-    "lines": "7"
+    "lines": "7",
+    "id": "103 ST-CORONA 7"
   },
   "R209": {
     "area": "R209",
     "name": "STERLING ST",
-    "lines": "25"
+    "lines": "25",
+    "id": "STERLING ST 25"
   },
   "R210": {
     "area": "R210",
     "name": "BEVERLY ROAD",
-    "lines": "25"
+    "lines": "25",
+    "id": "BEVERLY ROAD 25"
   },
   "R211": {
     "area": "R211",
     "name": "KINGS HIGHWAY",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "KINGS HIGHWAY BQ"
   },
   "R212": {
     "area": "R212",
     "name": "59 ST",
-    "lines": "NR"
+    "lines": "NR",
+    "id": "59 ST NR"
   },
   "R213": {
     "area": "R213",
     "name": "BAY RIDGE AVE",
-    "lines": "R"
+    "lines": "R",
+    "id": "BAY RIDGE AVE R"
   },
   "R214": {
     "area": "R214",
     "name": "77 ST",
-    "lines": "R"
+    "lines": "R",
+    "id": "77 ST R"
   },
   "R215": {
     "area": "R215",
     "name": "86 ST",
-    "lines": "R"
+    "lines": "R",
+    "id": "86 ST R"
   },
   "R216": {
     "area": "R216",
     "name": "BAY RIDGE-95 ST",
-    "lines": "R"
+    "lines": "R",
+    "id": "BAY RIDGE-95 ST R"
   },
   "R217": {
     "area": "R217",
     "name": "HOYT/SCHERMER",
-    "lines": "ACG"
+    "lines": "ACG",
+    "id": "HOYT/SCHERMER ACG"
   },
   "R218": {
     "area": "R218",
     "name": "ELMHURST AVE",
-    "lines": "MR"
+    "lines": "MR",
+    "id": "ELMHURST AVE MR"
   },
   "R219": {
     "area": "R219",
     "name": "67 AVE",
-    "lines": "MR"
+    "lines": "MR",
+    "id": "67 AVE MR"
   },
   "R220": {
     "area": "R220",
     "name": "CARROLL ST",
-    "lines": "FG"
+    "lines": "FG",
+    "id": "CARROLL ST FG"
   },
   "R221": {
     "area": "R221",
     "name": "167 ST",
-    "lines": "4"
+    "lines": "4",
+    "id": "167 ST 4"
   },
   "R222": {
     "area": "R222",
     "name": "E 177 ST-PARKCH",
-    "lines": "6"
+    "lines": "6",
+    "id": "E 177 ST-PARKCH 6"
   },
   "R223": {
     "area": "R223",
     "name": "46 ST-BLISS ST",
-    "lines": "7"
+    "lines": "7",
+    "id": "46 ST-BLISS ST 7"
   },
   "R224": {
     "area": "R224",
     "name": "CLARK ST",
-    "lines": "23"
+    "lines": "23",
+    "id": "CLARK ST 23"
   },
   "R225": {
     "area": "R225",
     "name": "HOYT ST",
-    "lines": "23"
+    "lines": "23",
+    "id": "HOYT ST 23"
   },
   "R226": {
     "area": "R226",
     "name": "GUN HILL ROAD",
-    "lines": "5"
+    "lines": "5",
+    "id": "GUN HILL ROAD 5"
   },
   "R227": {
     "area": "R227",
     "name": "RECTOR ST",
-    "lines": "R"
+    "lines": "R",
+    "id": "RECTOR ST R"
   },
   "R228": {
     "area": "R228",
     "name": "AVE J",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "AVE J BQ"
   },
   "R229": {
     "area": "R229",
     "name": "AVE M",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "AVE M BQ"
   },
   "R230": {
     "area": "R230",
     "name": "NECK ROAD",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "NECK ROAD BQ"
   },
   "R231": {
     "area": "R231",
     "name": "UNION ST",
-    "lines": "R"
+    "lines": "R",
+    "id": "UNION ST R"
   },
   "R232": {
     "area": "R232",
     "name": "45 ST",
-    "lines": "R"
+    "lines": "R",
+    "id": "45 ST R"
   },
   "R233": {
     "area": "R233",
     "name": "53 ST",
-    "lines": "R"
+    "lines": "R",
+    "id": "53 ST R"
   },
   "R234": {
     "area": "R234",
     "name": "50 ST",
-    "lines": "D"
+    "lines": "D",
+    "id": "50 ST D"
   },
   "R235": {
     "area": "R235",
     "name": "BEDFORD AVE",
-    "lines": "L"
+    "lines": "L",
+    "id": "BEDFORD AVE L"
   },
   "R236": {
     "area": "R236",
     "name": "DEKALB AVE",
-    "lines": "L"
+    "lines": "L",
+    "id": "DEKALB AVE L"
   },
   "R237": {
     "area": "R237",
     "name": "182-183 ST",
-    "lines": "BD"
+    "lines": "BD",
+    "id": "182-183 ST BD"
   },
   "R238": {
     "area": "R238",
     "name": "STEINWAY ST",
-    "lines": "MR"
+    "lines": "MR",
+    "id": "STEINWAY ST MR"
   },
   "R239": {
     "area": "R239",
     "name": "GREENPOINT AVE",
-    "lines": "G"
+    "lines": "G",
+    "id": "GREENPOINT AVE G"
   },
   "R240": {
     "area": "R240",
     "name": "GRAND ST",
-    "lines": "BD"
+    "lines": "BD",
+    "id": "GRAND ST BD"
   },
   "R241": {
     "area": "R241",
     "name": "15 ST-PROSPECT",
-    "lines": "FG"
+    "lines": "FG",
+    "id": "15 ST-PROSPECT FG"
   },
   "R242": {
     "area": "R242",
     "name": "18 AVE",
-    "lines": "F"
+    "lines": "F",
+    "id": "18 AVE F"
   },
   "R243": {
     "area": "R243",
     "name": "170 ST",
-    "lines": "4"
+    "lines": "4",
+    "id": "170 ST 4"
   },
   "R244": {
     "area": "R244",
     "name": "BURNSIDE AVE",
-    "lines": "4"
+    "lines": "4",
+    "id": "BURNSIDE AVE 4"
   },
   "R245": {
     "area": "R245",
     "name": "ST LAWRENCE AVE",
-    "lines": "6"
+    "lines": "6",
+    "id": "ST LAWRENCE AVE 6"
   },
   "R246": {
     "area": "R246",
     "name": "PROSPECT AVE",
-    "lines": "R"
+    "lines": "R",
+    "id": "PROSPECT AVE R"
   },
   "R247": {
     "area": "R247",
     "name": "55 ST",
-    "lines": "D"
+    "lines": "D",
+    "id": "55 ST D"
   },
   "R248": {
     "area": "R248",
     "name": "1 AVE",
-    "lines": "L"
+    "lines": "L",
+    "id": "1 AVE L"
   },
   "R249": {
     "area": "R249",
     "name": "GRAHAM AVE",
-    "lines": "L"
+    "lines": "L",
+    "id": "GRAHAM AVE L"
   },
   "R250": {
     "area": "R250",
     "name": "GRAND ST",
-    "lines": "L"
+    "lines": "L",
+    "id": "GRAND ST L"
   },
   "R251": {
     "area": "R251",
     "name": "96 ST",
-    "lines": "BC"
+    "lines": "BC",
+    "id": "96 ST BC"
   },
   "R252": {
     "area": "R252",
     "name": "HIGH ST",
-    "lines": "AC"
+    "lines": "AC",
+    "id": "HIGH ST AC"
   },
   "R253": {
     "area": "R253",
     "name": "174-175 ST",
-    "lines": "BD"
+    "lines": "BD",
+    "id": "174-175 ST BD"
   },
   "R254": {
     "area": "R254",
     "name": "GRAND AV-NEWTON",
-    "lines": "MR"
+    "lines": "MR",
+    "id": "GRAND AV-NEWTON MR"
   },
   "R255": {
     "area": "R255",
     "name": "VAN WYCK BLVD",
-    "lines": "EF"
+    "lines": "EF",
+    "id": "VAN WYCK BLVD EF"
   },
   "R256": {
     "area": "R256",
     "name": "NASSAU AV",
-    "lines": "G"
+    "lines": "G",
+    "id": "NASSAU AV G"
   },
   "R257": {
     "area": "R257",
     "name": "EAST BROADWAY",
-    "lines": "F"
+    "lines": "F",
+    "id": "EAST BROADWAY F"
   },
   "R258": {
     "area": "R258",
     "name": "4 AVE",
-    "lines": "DFGMNR"
+    "lines": "DFGMNR",
+    "id": "4 AVE DFGMNR"
   },
   "R259": {
     "area": "R259",
     "name": "ROOSEVELT IS",
-    "lines": "F"
+    "lines": "F",
+    "id": "ROOSEVELT IS F"
   },
   "R260": {
     "area": "R260",
     "name": "181 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "181 ST 1"
   },
   "R261": {
     "area": "R261",
     "name": "40 ST-LOWERY ST",
-    "lines": "7"
+    "lines": "7",
+    "id": "40 ST-LOWERY ST 7"
   },
   "R262": {
     "area": "R262",
     "name": "BEVERLEY ROAD",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "BEVERLEY ROAD BQ"
   },
   "R263": {
     "area": "R263",
     "name": "AVE H",
-    "lines": "BQ"
+    "lines": "BQ",
+    "id": "AVE H BQ"
   },
   "R264": {
     "area": "R264",
     "name": "OCEAN PARKWAY",
-    "lines": "Q"
+    "lines": "Q",
+    "id": "OCEAN PARKWAY Q"
   },
   "R265": {
     "area": "R265",
     "name": "MONTROSE AVE",
-    "lines": "L"
+    "lines": "L",
+    "id": "MONTROSE AVE L"
   },
   "R266": {
     "area": "R266",
     "name": "HALSEY ST",
-    "lines": "L"
+    "lines": "L",
+    "id": "HALSEY ST L"
   },
   "R267": {
     "area": "R267",
     "name": "46 ST",
-    "lines": "MR"
+    "lines": "MR",
+    "id": "46 ST MR"
   },
   "R268": {
     "area": "R268",
     "name": "METROPOLITAN AV",
-    "lines": "GL"
+    "lines": "GL",
+    "id": "METROPOLITAN AV GL"
   },
   "R269": {
     "area": "R269",
     "name": "BEDFORD/NOSTRAN",
-    "lines": "G"
+    "lines": "G",
+    "id": "BEDFORD/NOSTRAN G"
   },
   "R270": {
     "area": "R270",
     "name": "SMITH-9 ST",
-    "lines": "FG"
+    "lines": "FG",
+    "id": "SMITH-9 ST FG"
   },
   "R271": {
     "area": "R271",
     "name": "AVE X",
-    "lines": "F"
+    "lines": "F",
+    "id": "AVE X F"
   },
   "R272": {
     "area": "R272",
     "name": "28 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "28 ST 1"
   },
   "R273": {
     "area": "R273",
     "name": "145 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "145 ST 1"
   },
   "R274": {
     "area": "R274",
     "name": "191 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "191 ST 1"
   },
   "R275": {
     "area": "R275",
     "name": "183 ST",
-    "lines": "4"
+    "lines": "4",
+    "id": "183 ST 4"
   },
   "R276": {
     "area": "R276",
     "name": "VERNON/JACKSON",
-    "lines": "7"
+    "lines": "7",
+    "id": "VERNON/JACKSON 7"
   },
   "R277": {
     "area": "R277",
     "name": "PRESIDENT ST",
-    "lines": "25"
+    "lines": "25",
+    "id": "PRESIDENT ST 25"
   },
   "R278": {
     "area": "R278",
     "name": "25 ST",
-    "lines": "R"
+    "lines": "R",
+    "id": "25 ST R"
   },
   "R279": {
     "area": "R279",
     "name": "JEFFERSON ST",
-    "lines": "L"
+    "lines": "L",
+    "id": "JEFFERSON ST L"
   },
   "R280": {
     "area": "R280",
     "name": "190 ST",
-    "lines": "A"
+    "lines": "A",
+    "id": "190 ST A"
   },
   "R281": {
     "area": "R281",
     "name": "72 ST",
-    "lines": "BC"
+    "lines": "BC",
+    "id": "72 ST BC"
   },
   "R282": {
     "area": "R282",
     "name": "SPRING ST",
-    "lines": "CE"
+    "lines": "CE",
+    "id": "SPRING ST CE"
   },
   "R283": {
     "area": "R283",
     "name": "LAFAYETTE AVE",
-    "lines": "C"
+    "lines": "C",
+    "id": "LAFAYETTE AVE C"
   },
   "R284": {
     "area": "R284",
     "name": "CLINTON-WASH AV",
-    "lines": "C"
+    "lines": "C",
+    "id": "CLINTON-WASH AV C"
   },
   "R285": {
     "area": "R285",
     "name": "FAR ROCKAWAY",
-    "lines": "A"
+    "lines": "A",
+    "id": "FAR ROCKAWAY A"
   },
   "R286": {
     "area": "R286",
     "name": "MYRTLE-WILLOUGH",
-    "lines": "G"
+    "lines": "G",
+    "id": "MYRTLE-WILLOUGH G"
   },
   "R287": {
     "area": "R287",
     "name": "CLASSON AVE",
-    "lines": "G"
+    "lines": "G",
+    "id": "CLASSON AVE G"
   },
   "R288": {
     "area": "R288",
     "name": "7 AV-PARK SLOPE",
-    "lines": "FG"
+    "lines": "FG",
+    "id": "7 AV-PARK SLOPE FG"
   },
   "R289": {
     "area": "R289",
     "name": "FT HAMILTON PKY",
-    "lines": "FG"
+    "lines": "FG",
+    "id": "FT HAMILTON PKY FG"
   },
   "R290": {
     "area": "R290",
     "name": "HOUSTON ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "HOUSTON ST 1"
   },
   "R291": {
     "area": "R291",
     "name": "33 ST/RAWSON ST",
-    "lines": "7"
+    "lines": "7",
+    "id": "33 ST/RAWSON ST 7"
   },
   "R292": {
     "area": "R292",
     "name": "BAYCHESTER AVE",
-    "lines": "5"
+    "lines": "5",
+    "id": "BAYCHESTER AVE 5"
   },
   "R293": {
     "area": "R293",
     "name": "34 ST-PENN STA",
-    "lines": "123ACE"
+    "lines": "123ACE",
+    "id": "34 ST-PENN STA 123ACE"
   },
   "R294": {
     "area": "R294",
     "name": "MORGAN AVE",
-    "lines": "L"
+    "lines": "L",
+    "id": "MORGAN AVE L"
   },
   "R295": {
     "area": "R295",
     "name": "WILSON AVE",
-    "lines": "L"
+    "lines": "L",
+    "id": "WILSON AVE L"
   },
   "R296": {
     "area": "R296",
     "name": "163 ST-AMSTERDM",
-    "lines": "C"
+    "lines": "C",
+    "id": "163 ST-AMSTERDM C"
   },
   "R297": {
     "area": "R297",
     "name": "FRANKLIN AVE",
-    "lines": "ACS"
+    "lines": "ACS",
+    "id": "FRANKLIN AVE ACS"
   },
   "R298": {
     "area": "R298",
     "name": "NORTHERN BLVD",
-    "lines": "MR"
+    "lines": "MR",
+    "id": "NORTHERN BLVD MR"
   },
   "R299": {
     "area": "R299",
     "name": "BROADWAY",
-    "lines": "G"
+    "lines": "G",
+    "id": "BROADWAY G"
   },
   "R300": {
     "area": "R300",
     "name": "2 AVE",
-    "lines": "F"
+    "lines": "F",
+    "id": "2 AVE F"
   },
   "R301": {
     "area": "R301",
     "name": "YORK ST",
-    "lines": "F"
+    "lines": "F",
+    "id": "YORK ST F"
   },
   "R302": {
     "area": "R302",
     "name": "57 ST",
-    "lines": "F"
+    "lines": "F",
+    "id": "57 ST F"
   },
   "R303": {
     "area": "R303",
     "name": "21 ST",
-    "lines": "F"
+    "lines": "F",
+    "id": "21 ST F"
   },
   "R304": {
     "area": "R304",
     "name": "RECTOR ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "RECTOR ST 1"
   },
   "R305": {
     "area": "R305",
     "name": "CORTLANDT ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "CORTLANDT ST 1"
   },
   "R306": {
     "area": "R306",
     "name": "238 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "238 ST 1"
   },
   "R307": {
     "area": "R307",
     "name": "138 ST-GR CONC",
-    "lines": "45"
+    "lines": "45",
+    "id": "138 ST-GR CONC 45"
   },
   "R308": {
     "area": "R308",
     "name": "MT EDEN AVE",
-    "lines": "4"
+    "lines": "4",
+    "id": "MT EDEN AVE 4"
   },
   "R309": {
     "area": "R309",
     "name": "176 ST",
-    "lines": "4"
+    "lines": "4",
+    "id": "176 ST 4"
   },
   "R310": {
     "area": "R310",
     "name": "111 ST",
-    "lines": "7"
+    "lines": "7",
+    "id": "111 ST 7"
   },
   "R311": {
     "area": "R311",
     "name": "BOWERY",
-    "lines": "JZ"
+    "lines": "JZ",
+    "id": "BOWERY JZ"
   },
   "R312": {
     "area": "R312",
     "name": "W 8 ST-AQUARIUM",
-    "lines": "FQ"
+    "lines": "FQ",
+    "id": "W 8 ST-AQUARIUM FQ"
   },
   "R313": {
     "area": "R313",
     "name": "BUSHWICK AVE",
-    "lines": "L"
+    "lines": "L",
+    "id": "BUSHWICK AVE L"
   },
   "R314": {
     "area": "R314",
     "name": "103 ST",
-    "lines": "BC"
+    "lines": "BC",
+    "id": "103 ST BC"
   },
   "R315": {
     "area": "R315",
     "name": "155 ST",
-    "lines": "BD"
+    "lines": "BD",
+    "id": "155 ST BD"
   },
   "R316": {
     "area": "R316",
     "name": "FLUSHING AVE",
-    "lines": "G"
+    "lines": "G",
+    "id": "FLUSHING AVE G"
   },
   "R317": {
     "area": "R317",
     "name": "CLINTON-WASH AV",
-    "lines": "G"
+    "lines": "G",
+    "id": "CLINTON-WASH AV G"
   },
   "R318": {
     "area": "R318",
     "name": "FULTON ST",
-    "lines": "G"
+    "lines": "G",
+    "id": "FULTON ST G"
   },
   "R319": {
     "area": "R319",
     "name": "LEXINGTON AVE",
-    "lines": "F"
+    "lines": "F",
+    "id": "LEXINGTON AVE F"
   },
   "R320": {
     "area": "R320",
     "name": "CANAL ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "CANAL ST 1"
   },
   "R321": {
     "area": "R321",
     "name": "18 ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "18 ST 1"
   },
   "R322": {
     "area": "R322",
     "name": "SPRING ST",
-    "lines": "6"
+    "lines": "6",
+    "id": "SPRING ST 6"
   },
   "R323": {
     "area": "R323",
     "name": "110 ST-CPN",
-    "lines": "23"
+    "lines": "23",
+    "id": "110 ST-CPN 23"
   },
   "R324": {
     "area": "R324",
     "name": "116 ST",
-    "lines": "23"
+    "lines": "23",
+    "id": "116 ST 23"
   },
   "R325": {
     "area": "R325",
     "name": "WHITLOCK AVE",
-    "lines": "6"
+    "lines": "6",
+    "id": "WHITLOCK AVE 6"
   },
   "R326": {
     "area": "R326",
     "name": "ZEREGA AVE",
-    "lines": "6"
+    "lines": "6",
+    "id": "ZEREGA AVE 6"
   },
   "R327": {
     "area": "R327",
     "name": "52 ST-LINCOLN",
-    "lines": "7"
+    "lines": "7",
+    "id": "52 ST-LINCOLN 7"
   },
   "R328": {
     "area": "R328",
     "name": "METS-WILLETS PT",
-    "lines": "7"
+    "lines": "7",
+    "id": "METS-WILLETS PT 7"
   },
   "R329": {
     "area": "R329",
     "name": "MORRIS PARK",
-    "lines": "5"
+    "lines": "5",
+    "id": "MORRIS PARK 5"
   },
   "R330": {
     "area": "R330",
     "name": "3 AVE",
-    "lines": "L"
+    "lines": "L",
+    "id": "3 AVE L"
   },
   "R331": {
     "area": "R331",
     "name": "155 ST",
-    "lines": "C"
+    "lines": "C",
+    "id": "155 ST C"
   },
   "R332": {
     "area": "R332",
     "name": "135 ST",
-    "lines": "BC"
+    "lines": "BC",
+    "id": "135 ST BC"
   },
   "R333": {
     "area": "R333",
     "name": "116 ST",
-    "lines": "BC"
+    "lines": "BC",
+    "id": "116 ST BC"
   },
   "R334": {
     "area": "R334",
     "name": "CATHEDRL-110 ST",
-    "lines": "BC"
+    "lines": "BC",
+    "id": "CATHEDRL-110 ST BC"
   },
   "R335": {
     "area": "R335",
     "name": "BEACH 67 ST",
-    "lines": "A"
+    "lines": "A",
+    "id": "BEACH 67 ST A"
   },
   "R336": {
     "area": "R336",
     "name": "BEACH 60 ST",
-    "lines": "A"
+    "lines": "A",
+    "id": "BEACH 60 ST A"
   },
   "R337": {
     "area": "R337",
     "name": "BEACH 44 ST",
-    "lines": "A"
+    "lines": "A",
+    "id": "BEACH 44 ST A"
   },
   "R338": {
     "area": "R338",
     "name": "BEACH 36 ST",
-    "lines": "A"
+    "lines": "A",
+    "id": "BEACH 36 ST A"
   },
   "R339": {
     "area": "R339",
     "name": "36 ST",
-    "lines": "MR"
+    "lines": "MR",
+    "id": "36 ST MR"
   },
   "R340": {
     "area": "R340",
     "name": "65 ST",
-    "lines": "MR"
+    "lines": "MR",
+    "id": "65 ST MR"
   },
   "R341": {
     "area": "R341",
     "name": "75 AVE",
-    "lines": "EF"
+    "lines": "EF",
+    "id": "75 AVE EF"
   },
   "R342": {
     "area": "R342",
     "name": "JAMAICA-VAN WYC",
-    "lines": "E"
+    "lines": "E",
+    "id": "JAMAICA-VAN WYC E"
   },
   "R343": {
     "area": "R343",
     "name": "FRANKLIN ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "FRANKLIN ST 1"
   },
   "R344": {
     "area": "R344",
     "name": "145 ST",
-    "lines": "3"
+    "lines": "3",
+    "id": "145 ST 3"
   },
   "R345": {
     "area": "R345",
     "name": "148 ST-LENOX",
-    "lines": "3"
+    "lines": "3",
+    "id": "148 ST-LENOX 3"
   },
   "R346": {
     "area": "R346",
     "name": "COURT SQ",
-    "lines": "7"
+    "lines": "7",
+    "id": "COURT SQ 7"
   },
   "R347": {
     "area": "R347",
     "name": "69 ST-FISK AVE",
-    "lines": "7"
+    "lines": "7",
+    "id": "69 ST-FISK AVE 7"
   },
   "R348": {
     "area": "R348",
     "name": "ATLANTIC AVE",
-    "lines": "L"
+    "lines": "L",
+    "id": "ATLANTIC AVE L"
   },
   "R349": {
     "area": "R349",
     "name": "SUTTER AVE",
-    "lines": "L"
+    "lines": "L",
+    "id": "SUTTER AVE L"
   },
   "R350": {
     "area": "R350",
     "name": "LIVONIA AVE",
-    "lines": "L"
+    "lines": "L",
+    "id": "LIVONIA AVE L"
   },
   "R352": {
     "area": "R352",
     "name": "HEWES ST",
-    "lines": "JM"
+    "lines": "JM",
+    "id": "HEWES ST JM"
   },
   "R353": {
     "area": "R353",
     "name": "LORIMER ST",
-    "lines": "JM"
+    "lines": "JM",
+    "id": "LORIMER ST JM"
   },
   "R354": {
     "area": "R354",
     "name": "OXFORD-104 ST",
-    "lines": "A"
+    "lines": "A",
+    "id": "OXFORD-104 ST A"
   },
   "R355": {
     "area": "R355",
     "name": "GREENWOOD-111",
-    "lines": "A"
+    "lines": "A",
+    "id": "GREENWOOD-111 A"
   },
   "R356": {
     "area": "R356",
     "name": "LEFFERTS BLVD",
-    "lines": "A"
+    "lines": "A",
+    "id": "LEFFERTS BLVD A"
   },
   "R357": {
     "area": "R357",
     "name": "AQUEDUCT-N CNDT",
-    "lines": "A"
+    "lines": "A",
+    "id": "AQUEDUCT-N CNDT A"
   },
   "R358": {
     "area": "R358",
     "name": "BEACH 25 ST",
-    "lines": "A"
+    "lines": "A",
+    "id": "BEACH 25 ST A"
   },
   "R359": {
     "area": "R359",
     "name": "COURT SQ-23 ST",
-    "lines": "EMG"
+    "lines": "EMG",
+    "id": "COURT SQ-23 ST EMG"
   },
   "R360": {
     "area": "R360",
     "name": "VAN ALSTON-21ST",
-    "lines": "G"
+    "lines": "G",
+    "id": "VAN ALSTON-21ST G"
   },
   "R361": {
     "area": "R361",
     "name": "PELHAM PARKWAY",
-    "lines": "25"
+    "lines": "25",
+    "id": "PELHAM PARKWAY 25"
   },
   "R362": {
     "area": "R362",
     "name": "ALLERTON AVE",
-    "lines": "25"
+    "lines": "25",
+    "id": "ALLERTON AVE 25"
   },
   "R363": {
     "area": "R363",
     "name": "BURKE AVE",
-    "lines": "25"
+    "lines": "25",
+    "id": "BURKE AVE 25"
   },
   "R364": {
     "area": "R364",
     "name": "GUN HILL ROAD",
-    "lines": "25"
+    "lines": "25",
+    "id": "GUN HILL ROAD 25"
   },
   "R365": {
     "area": "R365",
     "name": "219 ST",
-    "lines": "25"
+    "lines": "25",
+    "id": "219 ST 25"
   },
   "R366": {
     "area": "R366",
     "name": "225 ST",
-    "lines": "25"
+    "lines": "25",
+    "id": "225 ST 25"
   },
   "R367": {
     "area": "R367",
     "name": "233 ST",
-    "lines": "25"
+    "lines": "25",
+    "id": "233 ST 25"
   },
   "R368": {
     "area": "R368",
     "name": "9 AVE",
-    "lines": "D"
+    "lines": "D",
+    "id": "9 AVE D"
   },
   "R369": {
     "area": "R369",
     "name": "FT HAMILTON PKY",
-    "lines": "D"
+    "lines": "D",
+    "id": "FT HAMILTON PKY D"
   },
   "R370": {
     "area": "R370",
     "name": "71 ST",
-    "lines": "D"
+    "lines": "D",
+    "id": "71 ST D"
   },
   "R371": {
     "area": "R371",
     "name": "79 ST",
-    "lines": "D"
+    "lines": "D",
+    "id": "79 ST D"
   },
   "R372": {
     "area": "R372",
     "name": "18 AVE",
-    "lines": "D"
+    "lines": "D",
+    "id": "18 AVE D"
   },
   "R373": {
     "area": "R373",
     "name": "20 AVE",
-    "lines": "D"
+    "lines": "D",
+    "id": "20 AVE D"
   },
   "R374": {
     "area": "R374",
     "name": "BAY PARKWAY",
-    "lines": "D"
+    "lines": "D",
+    "id": "BAY PARKWAY D"
   },
   "R375": {
     "area": "R375",
     "name": "NEW LOTS AVE",
-    "lines": "L"
+    "lines": "L",
+    "id": "NEW LOTS AVE L"
   },
   "R376": {
     "area": "R376",
     "name": "EAST 105 ST",
-    "lines": "L"
+    "lines": "L",
+    "id": "EAST 105 ST L"
   },
   "R377": {
     "area": "R377",
     "name": "FLUSHING AVE",
-    "lines": "JM"
+    "lines": "JM",
+    "id": "FLUSHING AVE JM"
   },
   "R378": {
     "area": "R378",
     "name": "MYRTLE AVE",
-    "lines": "JMZ"
+    "lines": "JMZ",
+    "id": "MYRTLE AVE JMZ"
   },
   "R379": {
     "area": "R379",
     "name": "KOSCIUSZKO ST",
-    "lines": "J"
+    "lines": "J",
+    "id": "KOSCIUSZKO ST J"
   },
   "R380": {
     "area": "R380",
     "name": "GATES AVE",
-    "lines": "JZ"
+    "lines": "JZ",
+    "id": "GATES AVE JZ"
   },
   "R381": {
     "area": "R381",
     "name": "HALSEY ST",
-    "lines": "J"
+    "lines": "J",
+    "id": "HALSEY ST J"
   },
   "R382": {
     "area": "R382",
     "name": "GRANT AVE",
-    "lines": "A"
+    "lines": "A",
+    "id": "GRANT AVE A"
   },
   "R383": {
     "area": "R383",
     "name": "HUDSON-80 ST",
-    "lines": "A"
+    "lines": "A",
+    "id": "HUDSON-80 ST A"
   },
   "R384": {
     "area": "R384",
     "name": "BOYD-88 ST",
-    "lines": "A"
+    "lines": "A",
+    "id": "BOYD-88 ST A"
   },
   "R385": {
     "area": "R385",
     "name": "ROCKAWAY BLVD",
-    "lines": "A"
+    "lines": "A",
+    "id": "ROCKAWAY BLVD A"
   },
   "R386": {
     "area": "R386",
     "name": "174 ST",
-    "lines": "25"
+    "lines": "25",
+    "id": "174 ST 25"
   },
   "R387": {
     "area": "R387",
     "name": "E TREMONT AVE",
-    "lines": "25"
+    "lines": "25",
+    "id": "E TREMONT AVE 25"
   },
   "R388": {
     "area": "R388",
     "name": "E 180 ST",
-    "lines": "25"
+    "lines": "25",
+    "id": "E 180 ST 25"
   },
   "R389": {
     "area": "R389",
     "name": "BRONX PARK EAST",
-    "lines": "25"
+    "lines": "25",
+    "id": "BRONX PARK EAST 25"
   },
   "R390": {
     "area": "R390",
     "name": "8 AVE",
-    "lines": "N"
+    "lines": "N",
+    "id": "8 AVE N"
   },
   "R391": {
     "area": "R391",
     "name": "FT HAMILTON PKY",
-    "lines": "N"
+    "lines": "N",
+    "id": "FT HAMILTON PKY N"
   },
   "R392": {
     "area": "R392",
     "name": "18 AVE",
-    "lines": "N"
+    "lines": "N",
+    "id": "18 AVE N"
   },
   "R393": {
     "area": "R393",
     "name": "20 AVE",
-    "lines": "N"
+    "lines": "N",
+    "id": "20 AVE N"
   },
   "R394": {
     "area": "R394",
     "name": "BAY PKY-22 AVE",
-    "lines": "N"
+    "lines": "N",
+    "id": "BAY PKY-22 AVE N"
   },
   "R395": {
     "area": "R395",
     "name": "KINGS HIGHWAY",
-    "lines": "N"
+    "lines": "N",
+    "id": "KINGS HIGHWAY N"
   },
   "R396": {
     "area": "R396",
     "name": "AVE U",
-    "lines": "N"
+    "lines": "N",
+    "id": "AVE U N"
   },
   "R397": {
     "area": "R397",
     "name": "86 ST",
-    "lines": "N"
+    "lines": "N",
+    "id": "86 ST N"
   },
   "R398": {
     "area": "R398",
     "name": "NEW UTRECHT AVE",
-    "lines": "ND"
+    "lines": "ND",
+    "id": "NEW UTRECHT AVE ND"
   },
   "R399": {
     "area": "R399",
     "name": "25 AVE",
-    "lines": "D"
+    "lines": "D",
+    "id": "25 AVE D"
   },
   "R400": {
     "area": "R400",
     "name": "BAY 50 ST",
-    "lines": "D"
+    "lines": "D",
+    "id": "BAY 50 ST D"
   },
   "R401": {
     "area": "R401",
     "name": "CENTRAL AVE",
-    "lines": "M"
+    "lines": "M",
+    "id": "CENTRAL AVE M"
   },
   "R402": {
     "area": "R402",
     "name": "SENECA AVE",
-    "lines": "M"
+    "lines": "M",
+    "id": "SENECA AVE M"
   },
   "R403": {
     "area": "R403",
     "name": "FOREST AVE",
-    "lines": "M"
+    "lines": "M",
+    "id": "FOREST AVE M"
   },
   "R404": {
     "area": "R404",
     "name": "FRESH POND ROAD",
-    "lines": "M"
+    "lines": "M",
+    "id": "FRESH POND ROAD M"
   },
   "R405": {
     "area": "R405",
     "name": "JACKSON AVE",
-    "lines": "25"
+    "lines": "25",
+    "id": "JACKSON AVE 25"
   },
   "R406": {
     "area": "R406",
     "name": "PROSPECT AVE",
-    "lines": "25"
+    "lines": "25",
+    "id": "PROSPECT AVE 25"
   },
   "R407": {
     "area": "R407",
     "name": "INTERVALE-163",
-    "lines": "25"
+    "lines": "25",
+    "id": "INTERVALE-163 25"
   },
   "R408": {
     "area": "R408",
     "name": "SIMPSON ST",
-    "lines": "25"
+    "lines": "25",
+    "id": "SIMPSON ST 25"
   },
   "R409": {
     "area": "R409",
     "name": "FREEMAN ST",
-    "lines": "25"
+    "lines": "25",
+    "id": "FREEMAN ST 25"
   },
   "R410": {
     "area": "R410",
     "name": "NYC & CO - 7 AV",
-    "lines": "1"
+    "lines": "1",
+    "id": "NYC & CO - 7 AV 1"
   },
   "R411": {
     "area": "R411",
     "name": "PARK PLACE",
-    "lines": "S"
+    "lines": "S",
+    "id": "PARK PLACE S"
   },
   "R412": {
     "area": "R412",
     "name": "BOTANIC GARDEN",
-    "lines": "S2345"
+    "lines": "S2345",
+    "id": "BOTANIC GARDEN S2345"
   },
   "R413": {
     "area": "R413",
     "name": "KNICKERBOCKER",
-    "lines": "M"
+    "lines": "M",
+    "id": "KNICKERBOCKER M"
   },
   "R414": {
     "area": "R414",
     "name": "HOWARD BCH-JFK",
-    "lines": "A"
+    "lines": "A",
+    "id": "HOWARD BCH-JFK A"
   },
   "R415": {
     "area": "R415",
     "name": "BROAD CHANNEL",
-    "lines": "AS"
+    "lines": "AS",
+    "id": "BROAD CHANNEL AS"
   },
   "R416": {
     "area": "R416",
     "name": "BEACH 90 ST",
-    "lines": "AS"
+    "lines": "AS",
+    "id": "BEACH 90 ST AS"
   },
   "R417": {
     "area": "R417",
     "name": "BEACH 98 ST",
-    "lines": "AS"
+    "lines": "AS",
+    "id": "BEACH 98 ST AS"
   },
   "R418": {
     "area": "R418",
     "name": "BEACH 105 ST",
-    "lines": "AS"
+    "lines": "AS",
+    "id": "BEACH 105 ST AS"
   },
   "R419": {
     "area": "R419",
     "name": "ROCKAWAY PK 116",
-    "lines": "AS"
+    "lines": "AS",
+    "id": "ROCKAWAY PK 116 AS"
   },
   "R420": {
     "area": "R420",
     "name": "DITMAS AVE",
-    "lines": "F"
+    "lines": "F",
+    "id": "DITMAS AVE F"
   },
   "R421": {
     "area": "R421",
     "name": "AVE I",
-    "lines": "F"
+    "lines": "F",
+    "id": "AVE I F"
   },
   "R422": {
     "area": "R422",
     "name": "22 AVE-BAY PKY",
-    "lines": "F"
+    "lines": "F",
+    "id": "22 AVE-BAY PKY F"
   },
   "R423": {
     "area": "R423",
     "name": "AVE N",
-    "lines": "F"
+    "lines": "F",
+    "id": "AVE N F"
   },
   "R424": {
     "area": "R424",
     "name": "AVE P",
-    "lines": "F"
+    "lines": "F",
+    "id": "AVE P F"
   },
   "R425": {
     "area": "R425",
     "name": "AVE U",
-    "lines": "F"
+    "lines": "F",
+    "id": "AVE U F"
   },
   "R426": {
     "area": "R426",
     "name": "NEPTUNE AVE",
-    "lines": "F"
+    "lines": "F",
+    "id": "NEPTUNE AVE F"
   },
   "R427": {
     "area": "R427",
     "name": "MIDDLETOWN ROAD",
-    "lines": "6"
+    "lines": "6",
+    "id": "MIDDLETOWN ROAD 6"
   },
   "R428": {
     "area": "R428",
     "name": "BUHRE AVE",
-    "lines": "6"
+    "lines": "6",
+    "id": "BUHRE AVE 6"
   },
   "R429": {
     "area": "R429",
     "name": "PELHAM BAY PARK",
-    "lines": "6"
+    "lines": "6",
+    "id": "PELHAM BAY PARK 6"
   },
   "R430": {
     "area": "R430",
     "name": "PELHAM PARKWAY",
-    "lines": "5"
+    "lines": "5",
+    "id": "PELHAM PARKWAY 5"
   },
   "R431": {
     "area": "R431",
     "name": "DYRE AVE",
-    "lines": "5"
+    "lines": "5",
+    "id": "DYRE AVE 5"
   },
   "R432": {
     "area": "R432",
     "name": "CHAUNCEY ST",
-    "lines": "JZ"
+    "lines": "JZ",
+    "id": "CHAUNCEY ST JZ"
   },
   "R433": {
     "area": "R433",
     "name": "ALABAMA AVE",
-    "lines": "J"
+    "lines": "J",
+    "id": "ALABAMA AVE J"
   },
   "R434": {
     "area": "R434",
     "name": "VAN SICLEN AVE",
-    "lines": "JZ"
+    "lines": "JZ",
+    "id": "VAN SICLEN AVE JZ"
   },
   "R435": {
     "area": "R435",
     "name": "CLEVELAND ST",
-    "lines": "J"
+    "lines": "J",
+    "id": "CLEVELAND ST J"
   },
   "R436": {
     "area": "R436",
     "name": "NORWOOD AVE",
-    "lines": "JZ"
+    "lines": "JZ",
+    "id": "NORWOOD AVE JZ"
   },
   "R437": {
     "area": "R437",
     "name": "CRESCENT ST",
-    "lines": "JZ"
+    "lines": "JZ",
+    "id": "CRESCENT ST JZ"
   },
   "R438": {
     "area": "R438",
     "name": "RALPH AVE",
-    "lines": "C"
+    "lines": "C",
+    "id": "RALPH AVE C"
   },
   "R439": {
     "area": "R439",
     "name": "ROCKAWAY AVE",
-    "lines": "C"
+    "lines": "C",
+    "id": "ROCKAWAY AVE C"
   },
   "R440": {
     "area": "R440",
     "name": "LIBERTY AVE",
-    "lines": "C"
+    "lines": "C",
+    "id": "LIBERTY AVE C"
   },
   "R441": {
     "area": "R441",
     "name": "VAN SICLEN AVE",
-    "lines": "C"
+    "lines": "C",
+    "id": "VAN SICLEN AVE C"
   },
   "R442": {
     "area": "R442",
     "name": "SHEPHERD AVE",
-    "lines": "C"
+    "lines": "C",
+    "id": "SHEPHERD AVE C"
   },
   "R443": {
     "area": "R443",
     "name": "170 ST",
-    "lines": "BD"
+    "lines": "BD",
+    "id": "170 ST BD"
   },
   "R444": {
     "area": "R444",
     "name": "NEREID AVE",
-    "lines": "25"
+    "lines": "25",
+    "id": "NEREID AVE 25"
   },
   "R445": {
     "area": "R445",
     "name": "138 ST-3 AVE",
-    "lines": "6"
+    "lines": "6",
+    "id": "138 ST-3 AVE 6"
   },
   "R446": {
     "area": "R446",
     "name": "BROOK AVE",
-    "lines": "6"
+    "lines": "6",
+    "id": "BROOK AVE 6"
   },
   "R447": {
     "area": "R447",
     "name": "CYPRESS AVE",
-    "lines": "6"
+    "lines": "6",
+    "id": "CYPRESS AVE 6"
   },
   "R448": {
     "area": "R448",
     "name": "E 143 ST",
-    "lines": "6"
+    "lines": "6",
+    "id": "E 143 ST 6"
   },
   "R449": {
     "area": "R449",
     "name": "E 149 ST",
-    "lines": "6"
+    "lines": "6",
+    "id": "E 149 ST 6"
   },
   "R450": {
     "area": "R450",
     "name": "LONGWOOD AVE",
-    "lines": "6"
+    "lines": "6",
+    "id": "LONGWOOD AVE 6"
   },
   "R451": {
     "area": "R451",
     "name": "WINTHROP ST",
-    "lines": "25"
+    "lines": "25",
+    "id": "WINTHROP ST 25"
   },
   "R452": {
     "area": "R452",
     "name": "72 ST",
-    "lines": "123"
+    "lines": "123",
+    "id": "72 ST 123"
   },
   "R453": {
     "area": "R453",
     "name": "23 ST-6 AVE",
-    "lines": "FM"
+    "lines": "FM",
+    "id": "23 ST-6 AVE FM"
   },
   "R454": {
     "area": "R454",
     "name": "PROSPECT AVE",
-    "lines": "R"
+    "lines": "R",
+    "id": "PROSPECT AVE R"
   },
   "R455": {
     "area": "R455",
     "name": "25 ST",
-    "lines": "R"
+    "lines": "R",
+    "id": "25 ST R"
   },
   "R456": {
     "area": "R456",
     "name": "HOYT ST",
-    "lines": "23"
+    "lines": "23",
+    "id": "HOYT ST 23"
   },
   "R457": {
     "area": "R457",
     "name": "METROCARD BUS 1",
-    "lines": "23"
+    "lines": "23",
+    "id": "METROCARD BUS 1 23"
   },
   "R458": {
     "area": "R458",
     "name": "METROCARD BUS 2",
-    "lines": "23"
+    "lines": "23",
+    "id": "METROCARD BUS 2 23"
   },
   "R459": {
     "area": "R459",
     "name": "ORCHARD BEACH",
-    "lines": "6"
+    "lines": "6",
+    "id": "ORCHARD BEACH 6"
   },
   "R460": {
     "area": "R460",
     "name": "MARCY AVE",
-    "lines": "JMZ"
+    "lines": "JMZ",
+    "id": "MARCY AVE JMZ"
   },
   "R461": {
     "area": "R461",
     "name": "BROADWAY/LAFAY",
-    "lines": "BDFQ6"
+    "lines": "BDFQ6",
+    "id": "BROADWAY/LAFAY BDFQ6"
   },
   "R462": {
     "area": "R462",
     "name": "CANAL ST",
-    "lines": "JNQRZ6"
+    "lines": "JNQRZ6",
+    "id": "CANAL ST JNQRZ6"
   },
   "R463": {
     "area": "R463",
     "name": "CANAL ST",
-    "lines": "JNQRZ6"
+    "lines": "JNQRZ6",
+    "id": "CANAL ST JNQRZ6"
   },
   "R464": {
     "area": "R464",
     "name": "AQUEDUCT TRACK",
-    "lines": "A"
+    "lines": "A",
+    "id": "AQUEDUCT TRACK A"
   },
   "R465": {
     "area": "R465",
     "name": "METROCARD VAN-1",
-    "lines": "1"
+    "lines": "1",
+    "id": "METROCARD VAN-1 1"
   },
   "R466": {
     "area": "R466",
     "name": "METROCARD VAN-2",
-    "lines": "1"
+    "lines": "1",
+    "id": "METROCARD VAN-2 1"
   },
   "R467": {
     "area": "R467",
     "name": "METROCARD VAN-3",
-    "lines": "1"
+    "lines": "1",
+    "id": "METROCARD VAN-3 1"
   },
   "R468": {
     "area": "R468",
     "name": "RIT-MANHATTAN",
-    "lines": "R"
+    "lines": "R",
+    "id": "RIT-MANHATTAN R"
   },
   "R469": {
     "area": "R469",
     "name": "RIT-ROOSEVELT",
-    "lines": "R"
+    "lines": "R",
+    "id": "RIT-ROOSEVELT R"
   },
   "R470": {
     "area": "R470",
     "name": "ELTINGVILLE PK",
-    "lines": "Z"
+    "lines": "Z",
+    "id": "ELTINGVILLE PK Z"
   },
   "R526": {
     "area": "R526",
     "name": "LIB-HEMPSTEAD",
-    "lines": "F"
+    "lines": "F",
+    "id": "LIB-HEMPSTEAD F"
   },
   "R532": {
     "area": "R532",
     "name": "WEST COUNTY CTR",
-    "lines": "5"
+    "lines": "5",
+    "id": "WEST COUNTY CTR 5"
   },
   "R535": {
     "area": "R535",
     "name": "JFK HOWARD BCH",
-    "lines": "A"
+    "lines": "A",
+    "id": "JFK HOWARD BCH A"
   },
   "R536": {
     "area": "R536",
     "name": "JFK JAMAICA CT1",
-    "lines": "E"
+    "lines": "E",
+    "id": "JFK JAMAICA CT1 E"
   },
   "R537": {
     "area": "R537",
     "name": "JFK JAMAICA CT2",
-    "lines": "E"
+    "lines": "E",
+    "id": "JFK JAMAICA CT2 E"
   },
   "R538": {
     "area": "R538",
     "name": "LGA AIRPORT CTB",
-    "lines": "7"
+    "lines": "7",
+    "id": "LGA AIRPORT CTB 7"
   },
   "R540": {
     "area": "R540",
     "name": "PATH WTC",
-    "lines": "1"
+    "lines": "1",
+    "id": "PATH WTC 1"
   },
   "R541": {
     "area": "R541",
     "name": "THIRTY ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "THIRTY ST 1"
   },
   "R542": {
     "area": "R542",
     "name": "TWENTY THIRD ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "TWENTY THIRD ST 1"
   },
   "R543": {
     "area": "R543",
     "name": "EXCHANGE PLACE",
-    "lines": "1"
+    "lines": "1",
+    "id": "EXCHANGE PLACE 1"
   },
   "R544": {
     "area": "R544",
     "name": "HARRISON",
-    "lines": "1"
+    "lines": "1",
+    "id": "HARRISON 1"
   },
   "R545": {
     "area": "R545",
     "name": "14TH STREET",
-    "lines": "1"
+    "lines": "1",
+    "id": "14TH STREET 1"
   },
   "R546": {
     "area": "R546",
     "name": "PAVONIA/NEWPORT",
-    "lines": "1"
+    "lines": "1",
+    "id": "PAVONIA/NEWPORT 1"
   },
   "R547": {
     "area": "R547",
     "name": "9TH STREET",
-    "lines": "1"
+    "lines": "1",
+    "id": "9TH STREET 1"
   },
   "R548": {
     "area": "R548",
     "name": "CHRISTOPHER ST",
-    "lines": "1"
+    "lines": "1",
+    "id": "CHRISTOPHER ST 1"
   },
   "R549": {
     "area": "R549",
     "name": "NEWARK HW BMEBE",
-    "lines": "1"
+    "lines": "1",
+    "id": "NEWARK HW BMEBE 1"
   },
   "R550": {
     "area": "R550",
     "name": "CITY / BUS",
-    "lines": "1"
+    "lines": "1",
+    "id": "CITY / BUS 1"
   },
   "R551": {
     "area": "R551",
     "name": "GROVE STREET",
-    "lines": "1"
+    "lines": "1",
+    "id": "GROVE STREET 1"
   },
   "R552": {
     "area": "R552",
     "name": "JOURNAL SQUARE",
-    "lines": "1"
+    "lines": "1",
+    "id": "JOURNAL SQUARE 1"
   }
 }

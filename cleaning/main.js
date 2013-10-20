@@ -13,13 +13,13 @@ var ext = '.csv';
 var data = {};
 var stationURL = '../raw/Remote-Booth-Station.csv';
 
-start(8);
+// pass in the index of the path you want to process above
+// (not a clean way of doing this, I know)
+start(1);
 
 function start(cur) {
 
-	var i = cur;
-
-	turnstileURL = base + paths[i] + ext;
+	turnstileURL = base + paths[cur] + ext;
 
 	console.log('Loading Turnstile Data');
 
@@ -35,7 +35,7 @@ function start(cur) {
 				returned += 1;
 				data.turnstile = res;
 				if (returned === 2) main(function(){
-					closeAndWrite( "../data/sorted_" + paths[i] + ".json", data.turnstile );
+					closeAndWrite( "../data/sorted_" + paths[cur] + ".json", data.turnstile );
 					closeAndWrite( "../data/station_data.json", data.station );
 				});
 			});
@@ -51,7 +51,7 @@ function start(cur) {
 					returned += 1;
 					data.station = res;
 					if (returned === 2) main(function(){
-						closeAndWrite( "../data/sorted_" + paths[i] + ".json", data.turnstile );
+						closeAndWrite( "../data/sorted_" + paths[cur] + ".json", data.turnstile );
 						closeAndWrite( "../data/station_data.json", data.station );
 					});
 				});
@@ -94,6 +94,7 @@ function setupStationKey( array ) {
 		station.area = entry[0];
 		station.name = entry[2];
 		station.lines = entry[3];
+		station.id = station.name + ' ' + station.lines;
 
 		array[i] = station;
 	}
@@ -138,6 +139,7 @@ function combineStations( array ) {
 		var obj = {};
 		obj.name = station[0].name;
 		obj.lines = station[0].lines;
+		obj.id = obj.name + ' ' + obj.lines;
 		obj.audits = [];
 		_und.each(station, function(turnstile) {
 
@@ -168,8 +170,13 @@ function sortAuditsByTime( audits ) {
 	for (var prop in dates) {
 		if (dates.hasOwnProperty(prop)) {
 			var date = dates[ prop ];
+
 			var times = _und.groupBy(date, function(obj) {
-				return obj.time;
+				// take just the hour
+				var bits = obj.time.split(':');
+				// aggregating on every four hours
+				var hour = ((parseInt(bits[0], 10) / 4) | 0) * 4;
+				return hour;
 			});
 
 			for (var prp in times) {
