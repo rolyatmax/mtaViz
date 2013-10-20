@@ -15,7 +15,7 @@ var stationURL = '../raw/Remote-Booth-Station.csv';
 
 // pass in the index of the path you want to process above
 // (not a clean way of doing this, I know)
-start(1);
+start(9);
 
 function start(cur) {
 
@@ -137,9 +137,7 @@ function combineStations( array ) {
 		// create a new object to represent the turnstile
 		// complete with id and an array of its audits
 		var obj = {};
-		obj.name = station[0].name;
-		obj.lines = station[0].lines;
-		obj.id = obj.name + ' ' + obj.lines;
+		obj.id = station[0].name + ' ' + station[0].lines;
 		obj.audits = [];
 		_und.each(station, function(turnstile) {
 

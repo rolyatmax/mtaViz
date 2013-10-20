@@ -1,7 +1,5 @@
 [
   {
-    "name": "59 ST",
-    "lines": "456NQR",
     "id": "59 ST 456NQR",
     "audits": {
       "11-03-12": {
@@ -63,8 +61,6 @@
     }
   },
   {
-    "name": "5 AVE-59 ST",
-    "lines": "NQR",
     "id": "5 AVE-59 ST NQR",
     "audits": {
       "11-03-12": {
@@ -126,8 +122,6 @@
     }
   },
   {
-    "name": "57 ST-7 AVE",
-    "lines": "NQR",
     "id": "57 ST-7 AVE NQR",
     "audits": {
       "11-03-12": {
@@ -189,8 +183,6 @@
     }
   },
   {
-    "name": "49 ST-7 AVE",
-    "lines": "NQR",
     "id": "49 ST-7 AVE NQR",
     "audits": {
       "11-03-12": {
@@ -252,8 +244,6 @@
     }
   },
   {
-    "name": "42 ST-TIMES SQ",
-    "lines": "1237ACENQRS",
     "id": "42 ST-TIMES SQ 1237ACENQRS",
     "audits": {
       "11-03-12": {
@@ -315,8 +305,6 @@
     }
   },
   {
-    "name": "34 ST-HERALD SQ",
-    "lines": "BDFMNQR",
     "id": "34 ST-HERALD SQ BDFMNQR",
     "audits": {
       "11-03-12": {
@@ -378,8 +366,6 @@
     }
   },
   {
-    "name": "28 ST-BROADWAY",
-    "lines": "NR",
     "id": "28 ST-BROADWAY NR",
     "audits": {
       "11-03-12": {
@@ -441,8 +427,6 @@
     }
   },
   {
-    "name": "23 ST-5 AVE",
-    "lines": "NR",
     "id": "23 ST-5 AVE NR",
     "audits": {
       "11-03-12": {
@@ -504,8 +488,6 @@
     }
   },
   {
-    "name": "14 ST-UNION SQ",
-    "lines": "LNQR456",
     "id": "14 ST-UNION SQ LNQR456",
     "audits": {
       "11-03-12": {
@@ -567,8 +549,6 @@
     }
   },
   {
-    "name": "8 ST-B'WAY NYU",
-    "lines": "NR",
     "id": "8 ST-B'WAY NYU NR",
     "audits": {
       "11-03-12": {
@@ -630,8 +610,6 @@
     }
   },
   {
-    "name": "PRINCE ST-B'WAY",
-    "lines": "NR",
     "id": "PRINCE ST-B'WAY NR",
     "audits": {
       "11-03-12": {
@@ -693,8 +671,6 @@
     }
   },
   {
-    "name": "CANAL ST",
-    "lines": "JNQRZ6",
     "id": "CANAL ST JNQRZ6",
     "audits": {
       "11-03-12": {
@@ -756,8 +732,6 @@
     }
   },
   {
-    "name": "CORTLANDT ST",
-    "lines": "R",
     "id": "CORTLANDT ST R",
     "audits": {
       "11-03-12": {
@@ -819,8 +793,6 @@
     }
   },
   {
-    "name": "ESSEX ST",
-    "lines": "FJMZ",
     "id": "ESSEX ST FJMZ",
     "audits": {
       "11-03-12": {
@@ -882,8 +854,6 @@
     }
   },
   {
-    "name": "BOWERY",
-    "lines": "JZ",
     "id": "BOWERY JZ",
     "audits": {
       "11-03-12": {
@@ -945,8 +915,6 @@
     }
   },
   {
-    "name": "FULTON ST",
-    "lines": "2345ACJZ",
     "id": "FULTON ST 2345ACJZ",
     "audits": {
       "11-03-12": {
@@ -1008,8 +976,6 @@
     }
   },
   {
-    "name": "BROAD ST",
-    "lines": "JZ",
     "id": "BROAD ST JZ",
     "audits": {
       "11-03-12": {
@@ -1071,8 +1037,6 @@
     }
   },
   {
-    "name": "7 AVE",
-    "lines": "BQ",
     "id": "7 AVE BQ",
     "audits": {
       "11-03-12": {
@@ -1134,8 +1098,6 @@
     }
   },
   {
-    "name": "PARK PLACE",
-    "lines": "S",
     "id": "PARK PLACE S",
     "audits": {
       "11-03-12": {
@@ -1197,8 +1159,6 @@
     }
   },
   {
-    "name": "BOTANIC GARDEN",
-    "lines": "S2345",
     "id": "BOTANIC GARDEN S2345",
     "audits": {
       "11-03-12": {
@@ -1260,8 +1220,6 @@
     }
   },
   {
-    "name": "PROSPECT PARK",
-    "lines": "BQS",
     "id": "PROSPECT PARK BQS",
     "audits": {
       "11-03-12": {
@@ -1323,8 +1281,6 @@
     }
   },
   {
-    "name": "PARKSIDE AVE",
-    "lines": "BQ",
     "id": "PARKSIDE AVE BQ",
     "audits": {
       "11-03-12": {
@@ -1386,8 +1342,6 @@
     }
   },
   {
-    "name": "CHURCH AVE",
-    "lines": "BQ",
     "id": "CHURCH AVE BQ",
     "audits": {
       "11-03-12": {
@@ -1449,8 +1403,6 @@
     }
   },
   {
-    "name": "BEVERLEY ROAD",
-    "lines": "BQ",
     "id": "BEVERLEY ROAD BQ",
     "audits": {
       "11-03-12": {
@@ -1512,8 +1464,6 @@
     }
   },
   {
-    "name": "CORTELYOU ROAD",
-    "lines": "BQ",
     "id": "CORTELYOU ROAD BQ",
     "audits": {
       "11-03-12": {
@@ -1574,8 +1524,6 @@
     }
   },
   {
-    "name": "NEWKIRK AVE",
-    "lines": "BQ",
     "id": "NEWKIRK AVE BQ",
     "audits": {
       "11-03-12": {
@@ -1637,8 +1585,6 @@
     }
   },
   {
-    "name": "AVE H",
-    "lines": "BQ",
     "id": "AVE H BQ",
     "audits": {
       "11-03-12": {
@@ -1700,8 +1646,6 @@
     }
   },
   {
-    "name": "AVE J",
-    "lines": "BQ",
     "id": "AVE J BQ",
     "audits": {
       "11-03-12": {
@@ -1763,8 +1707,6 @@
     }
   },
   {
-    "name": "AVE M",
-    "lines": "BQ",
     "id": "AVE M BQ",
     "audits": {
       "11-03-12": {
@@ -1826,8 +1768,6 @@
     }
   },
   {
-    "name": "KINGS HIGHWAY",
-    "lines": "BQ",
     "id": "KINGS HIGHWAY BQ",
     "audits": {
       "11-03-12": {
@@ -1889,8 +1829,6 @@
     }
   },
   {
-    "name": "AVE U",
-    "lines": "BQ",
     "id": "AVE U BQ",
     "audits": {
       "11-03-12": {
@@ -1952,8 +1890,6 @@
     }
   },
   {
-    "name": "NECK ROAD",
-    "lines": "BQ",
     "id": "NECK ROAD BQ",
     "audits": {
       "11-03-12": {
@@ -2015,8 +1951,6 @@
     }
   },
   {
-    "name": "SHEEPSHEAD BAY",
-    "lines": "BQ",
     "id": "SHEEPSHEAD BAY BQ",
     "audits": {
       "11-03-12": {
@@ -2078,8 +2012,6 @@
     }
   },
   {
-    "name": "OCEAN PARKWAY",
-    "lines": "Q",
     "id": "OCEAN PARKWAY Q",
     "audits": {
       "11-03-12": {
@@ -2141,8 +2073,6 @@
     }
   },
   {
-    "name": "BOROUGH HALL/CT",
-    "lines": "2345R",
     "id": "BOROUGH HALL/CT 2345R",
     "audits": {
       "11-03-12": {
@@ -2204,8 +2134,6 @@
     }
   },
   {
-    "name": "JAY ST-METROTEC",
-    "lines": "R",
     "id": "JAY ST-METROTEC R",
     "audits": {
       "11-03-12": {
@@ -2267,8 +2195,6 @@
     }
   },
   {
-    "name": "DEKALB AVE",
-    "lines": "BDNQR",
     "id": "DEKALB AVE BDNQR",
     "audits": {
       "11-03-12": {
@@ -2330,8 +2256,6 @@
     }
   },
   {
-    "name": "ATLANTIC AVE",
-    "lines": "2345BDNQR",
     "id": "ATLANTIC AVE 2345BDNQR",
     "audits": {
       "11-03-12": {
@@ -2393,8 +2317,6 @@
     }
   },
   {
-    "name": "4 AVE",
-    "lines": "DFGMNR",
     "id": "4 AVE DFGMNR",
     "audits": {
       "11-03-12": {
@@ -2456,8 +2378,6 @@
     }
   },
   {
-    "name": "PROSPECT AVE",
-    "lines": "R",
     "id": "PROSPECT AVE R",
     "audits": {
       "11-03-12": {
@@ -2519,8 +2439,6 @@
     }
   },
   {
-    "name": "25 ST",
-    "lines": "R",
     "id": "25 ST R",
     "audits": {
       "11-03-12": {
@@ -2582,8 +2500,6 @@
     }
   },
   {
-    "name": "36 ST",
-    "lines": "DNR",
     "id": "36 ST DNR",
     "audits": {
       "11-03-12": {
@@ -2645,8 +2561,6 @@
     }
   },
   {
-    "name": "45 ST",
-    "lines": "R",
     "id": "45 ST R",
     "audits": {
       "11-03-12": {
@@ -2708,8 +2622,6 @@
     }
   },
   {
-    "name": "53 ST",
-    "lines": "R",
     "id": "53 ST R",
     "audits": {
       "11-03-12": {
@@ -2771,8 +2683,6 @@
     }
   },
   {
-    "name": "59 ST",
-    "lines": "NR",
     "id": "59 ST NR",
     "audits": {
       "11-03-12": {
@@ -2834,8 +2744,6 @@
     }
   },
   {
-    "name": "BAY RIDGE AVE",
-    "lines": "R",
     "id": "BAY RIDGE AVE R",
     "audits": {
       "11-03-12": {
@@ -2897,8 +2805,6 @@
     }
   },
   {
-    "name": "77 ST",
-    "lines": "R",
     "id": "77 ST R",
     "audits": {
       "11-03-12": {
@@ -2960,8 +2866,6 @@
     }
   },
   {
-    "name": "86 ST",
-    "lines": "R",
     "id": "86 ST R",
     "audits": {
       "11-03-12": {
@@ -3023,8 +2927,6 @@
     }
   },
   {
-    "name": "BAY RIDGE-95 ST",
-    "lines": "R",
     "id": "BAY RIDGE-95 ST R",
     "audits": {
       "11-03-12": {
@@ -3086,8 +2988,6 @@
     }
   },
   {
-    "name": "8 AVE",
-    "lines": "N",
     "id": "8 AVE N",
     "audits": {
       "11-03-12": {
@@ -3149,8 +3049,6 @@
     }
   },
   {
-    "name": "FT HAMILTON PKY",
-    "lines": "N",
     "id": "FT HAMILTON PKY N",
     "audits": {
       "11-03-12": {
@@ -3212,8 +3110,6 @@
     }
   },
   {
-    "name": "NEW UTRECHT AVE",
-    "lines": "ND",
     "id": "NEW UTRECHT AVE ND",
     "audits": {
       "11-03-12": {
@@ -3275,8 +3171,6 @@
     }
   },
   {
-    "name": "18 AVE",
-    "lines": "N",
     "id": "18 AVE N",
     "audits": {
       "11-03-12": {
@@ -3338,8 +3232,6 @@
     }
   },
   {
-    "name": "20 AVE",
-    "lines": "N",
     "id": "20 AVE N",
     "audits": {
       "11-03-12": {
@@ -3401,8 +3293,6 @@
     }
   },
   {
-    "name": "BAY PKY-22 AVE",
-    "lines": "N",
     "id": "BAY PKY-22 AVE N",
     "audits": {
       "11-03-12": {
@@ -3464,8 +3354,6 @@
     }
   },
   {
-    "name": "KINGS HIGHWAY",
-    "lines": "N",
     "id": "KINGS HIGHWAY N",
     "audits": {
       "11-03-12": {
@@ -3527,8 +3415,6 @@
     }
   },
   {
-    "name": "AVE U",
-    "lines": "N",
     "id": "AVE U N",
     "audits": {
       "11-03-12": {
@@ -3590,8 +3476,6 @@
     }
   },
   {
-    "name": "86 ST",
-    "lines": "N",
     "id": "86 ST N",
     "audits": {
       "11-03-12": {
@@ -3653,8 +3537,6 @@
     }
   },
   {
-    "name": "9 AVE",
-    "lines": "D",
     "id": "9 AVE D",
     "audits": {
       "11-03-12": {
@@ -3716,8 +3598,6 @@
     }
   },
   {
-    "name": "50 ST",
-    "lines": "D",
     "id": "50 ST D",
     "audits": {
       "11-03-12": {
@@ -3779,8 +3659,6 @@
     }
   },
   {
-    "name": "55 ST",
-    "lines": "D",
     "id": "55 ST D",
     "audits": {
       "11-03-12": {
@@ -3842,8 +3720,6 @@
     }
   },
   {
-    "name": "71 ST",
-    "lines": "D",
     "id": "71 ST D",
     "audits": {
       "11-03-12": {
@@ -3905,8 +3781,6 @@
     }
   },
   {
-    "name": "79 ST",
-    "lines": "D",
     "id": "79 ST D",
     "audits": {
       "11-03-12": {
@@ -3967,8 +3841,6 @@
     }
   },
   {
-    "name": "18 AVE",
-    "lines": "D",
     "id": "18 AVE D",
     "audits": {
       "11-03-12": {
@@ -4030,8 +3902,6 @@
     }
   },
   {
-    "name": "20 AVE",
-    "lines": "D",
     "id": "20 AVE D",
     "audits": {
       "11-03-12": {
@@ -4093,8 +3963,6 @@
     }
   },
   {
-    "name": "BAY PARKWAY",
-    "lines": "D",
     "id": "BAY PARKWAY D",
     "audits": {
       "11-03-12": {
@@ -4156,8 +4024,6 @@
     }
   },
   {
-    "name": "25 AVE",
-    "lines": "D",
     "id": "25 AVE D",
     "audits": {
       "11-03-12": {
@@ -4219,8 +4085,6 @@
     }
   },
   {
-    "name": "BAY 50 ST",
-    "lines": "D",
     "id": "BAY 50 ST D",
     "audits": {
       "11-03-12": {
@@ -4282,8 +4146,6 @@
     }
   },
   {
-    "name": "STILLWELL AVE",
-    "lines": "DFNQ",
     "id": "STILLWELL AVE DFNQ",
     "audits": {
       "11-04-12": {
@@ -4345,8 +4207,6 @@
     }
   },
   {
-    "name": "W 8 ST-AQUARIUM",
-    "lines": "FQ",
     "id": "W 8 ST-AQUARIUM FQ",
     "audits": {
       "11-03-12": {
@@ -4408,8 +4268,6 @@
     }
   },
   {
-    "name": "8 AVE",
-    "lines": "ACEL",
     "id": "8 AVE ACEL",
     "audits": {
       "11-03-12": {
@@ -4470,8 +4328,6 @@
     }
   },
   {
-    "name": "14 ST-6 AVE",
-    "lines": "FLM123",
     "id": "14 ST-6 AVE FLM123",
     "audits": {
       "11-03-12": {
@@ -4533,8 +4389,6 @@
     }
   },
   {
-    "name": "3 AVE",
-    "lines": "L",
     "id": "3 AVE L",
     "audits": {
       "11-03-12": {
@@ -4596,8 +4450,6 @@
     }
   },
   {
-    "name": "1 AVE",
-    "lines": "L",
     "id": "1 AVE L",
     "audits": {
       "11-03-12": {
@@ -4659,8 +4511,6 @@
     }
   },
   {
-    "name": "BEDFORD AVE",
-    "lines": "L",
     "id": "BEDFORD AVE L",
     "audits": {
       "11-03-12": {
@@ -4722,8 +4572,6 @@
     }
   },
   {
-    "name": "METROPOLITAN AV",
-    "lines": "GL",
     "id": "METROPOLITAN AV GL",
     "audits": {
       "11-03-12": {
@@ -4785,8 +4633,6 @@
     }
   },
   {
-    "name": "GRAHAM AVE",
-    "lines": "L",
     "id": "GRAHAM AVE L",
     "audits": {
       "11-03-12": {
@@ -4848,8 +4694,6 @@
     }
   },
   {
-    "name": "GRAND ST",
-    "lines": "L",
     "id": "GRAND ST L",
     "audits": {
       "11-03-12": {
@@ -4911,8 +4755,6 @@
     }
   },
   {
-    "name": "MONTROSE AVE",
-    "lines": "L",
     "id": "MONTROSE AVE L",
     "audits": {
       "11-03-12": {
@@ -4974,8 +4816,6 @@
     }
   },
   {
-    "name": "MORGAN AVE",
-    "lines": "L",
     "id": "MORGAN AVE L",
     "audits": {
       "11-03-12": {
@@ -5037,8 +4877,6 @@
     }
   },
   {
-    "name": "JEFFERSON ST",
-    "lines": "L",
     "id": "JEFFERSON ST L",
     "audits": {
       "11-03-12": {
@@ -5100,8 +4938,6 @@
     }
   },
   {
-    "name": "DEKALB AVE",
-    "lines": "L",
     "id": "DEKALB AVE L",
     "audits": {
       "11-03-12": {
@@ -5163,8 +4999,6 @@
     }
   },
   {
-    "name": "MYRTLE AVE",
-    "lines": "LM",
     "id": "MYRTLE AVE LM",
     "audits": {
       "11-03-12": {
@@ -5226,8 +5060,6 @@
     }
   },
   {
-    "name": "HALSEY ST",
-    "lines": "L",
     "id": "HALSEY ST L",
     "audits": {
       "11-03-12": {
@@ -5289,8 +5121,6 @@
     }
   },
   {
-    "name": "WILSON AVE",
-    "lines": "L",
     "id": "WILSON AVE L",
     "audits": {
       "11-03-12": {
@@ -5352,8 +5182,6 @@
     }
   },
   {
-    "name": "BUSHWICK AVE",
-    "lines": "L",
     "id": "BUSHWICK AVE L",
     "audits": {
       "11-03-12": {
@@ -5415,8 +5243,6 @@
     }
   },
   {
-    "name": "ATLANTIC AVE",
-    "lines": "L",
     "id": "ATLANTIC AVE L",
     "audits": {
       "11-03-12": {
@@ -5478,8 +5304,6 @@
     }
   },
   {
-    "name": "SUTTER AVE",
-    "lines": "L",
     "id": "SUTTER AVE L",
     "audits": {
       "11-03-12": {
@@ -5541,8 +5365,6 @@
     }
   },
   {
-    "name": "LIVONIA AVE",
-    "lines": "L",
     "id": "LIVONIA AVE L",
     "audits": {
       "11-03-12": {
@@ -5604,8 +5426,6 @@
     }
   },
   {
-    "name": "NEW LOTS AVE",
-    "lines": "L",
     "id": "NEW LOTS AVE L",
     "audits": {
       "11-03-12": {
@@ -5667,8 +5487,6 @@
     }
   },
   {
-    "name": "ROCKAWAY PKY",
-    "lines": "L",
     "id": "ROCKAWAY PKY L",
     "audits": {
       "11-03-12": {
@@ -5730,8 +5548,6 @@
     }
   },
   {
-    "name": "JFK HOWARD BCH",
-    "lines": "A",
     "id": "JFK HOWARD BCH A",
     "audits": {
       "11-03-12": {
@@ -5793,8 +5609,6 @@
     }
   },
   {
-    "name": "JFK JAMAICA CT1",
-    "lines": "E",
     "id": "JFK JAMAICA CT1 E",
     "audits": {
       "11-03-12": {
@@ -5854,8 +5668,6 @@
     }
   },
   {
-    "name": "MARCY AVE",
-    "lines": "JMZ",
     "id": "MARCY AVE JMZ",
     "audits": {
       "11-03-12": {
@@ -5917,8 +5729,6 @@
     }
   },
   {
-    "name": "HEWES ST",
-    "lines": "JM",
     "id": "HEWES ST JM",
     "audits": {
       "11-03-12": {
@@ -5980,8 +5790,6 @@
     }
   },
   {
-    "name": "LORIMER ST",
-    "lines": "JM",
     "id": "LORIMER ST JM",
     "audits": {
       "11-03-12": {
@@ -6043,8 +5851,6 @@
     }
   },
   {
-    "name": "FLUSHING AVE",
-    "lines": "JM",
     "id": "FLUSHING AVE JM",
     "audits": {
       "11-03-12": {
@@ -6106,8 +5912,6 @@
     }
   },
   {
-    "name": "MYRTLE AVE",
-    "lines": "JMZ",
     "id": "MYRTLE AVE JMZ",
     "audits": {
       "11-03-12": {
@@ -6165,8 +5969,6 @@
     }
   },
   {
-    "name": "KOSCIUSZKO ST",
-    "lines": "J",
     "id": "KOSCIUSZKO ST J",
     "audits": {
       "11-03-12": {
@@ -6228,8 +6030,6 @@
     }
   },
   {
-    "name": "GATES AVE",
-    "lines": "JZ",
     "id": "GATES AVE JZ",
     "audits": {
       "11-03-12": {
@@ -6291,8 +6091,6 @@
     }
   },
   {
-    "name": "HALSEY ST",
-    "lines": "J",
     "id": "HALSEY ST J",
     "audits": {
       "11-03-12": {
@@ -6354,8 +6152,6 @@
     }
   },
   {
-    "name": "CHAUNCEY ST",
-    "lines": "JZ",
     "id": "CHAUNCEY ST JZ",
     "audits": {
       "11-03-12": {
@@ -6417,8 +6213,6 @@
     }
   },
   {
-    "name": "ALABAMA AVE",
-    "lines": "J",
     "id": "ALABAMA AVE J",
     "audits": {
       "11-03-12": {
@@ -6480,8 +6274,6 @@
     }
   },
   {
-    "name": "VAN SICLEN AVE",
-    "lines": "JZ",
     "id": "VAN SICLEN AVE JZ",
     "audits": {
       "11-03-12": {
@@ -6543,8 +6335,6 @@
     }
   },
   {
-    "name": "CLEVELAND ST",
-    "lines": "J",
     "id": "CLEVELAND ST J",
     "audits": {
       "11-03-12": {
@@ -6606,8 +6396,6 @@
     }
   },
   {
-    "name": "NORWOOD AVE",
-    "lines": "JZ",
     "id": "NORWOOD AVE JZ",
     "audits": {
       "11-03-12": {
@@ -6669,8 +6457,6 @@
     }
   },
   {
-    "name": "CRESCENT ST",
-    "lines": "JZ",
     "id": "CRESCENT ST JZ",
     "audits": {
       "11-03-12": {
@@ -6732,8 +6518,6 @@
     }
   },
   {
-    "name": "CYPRESS HILLS",
-    "lines": "J",
     "id": "CYPRESS HILLS J",
     "audits": {
       "11-03-12": {
@@ -6795,8 +6579,6 @@
     }
   },
   {
-    "name": "ELDERTS LANE",
-    "lines": "JZ",
     "id": "ELDERTS LANE JZ",
     "audits": {
       "11-03-12": {
@@ -6858,8 +6640,6 @@
     }
   },
   {
-    "name": "FOREST PARKWAY",
-    "lines": "J",
     "id": "FOREST PARKWAY J",
     "audits": {
       "11-03-12": {
@@ -6921,8 +6701,6 @@
     }
   },
   {
-    "name": "WOODHAVEN BLVD",
-    "lines": "JZ",
     "id": "WOODHAVEN BLVD JZ",
     "audits": {
       "11-03-12": {
@@ -6984,8 +6762,6 @@
     }
   },
   {
-    "name": "104 ST",
-    "lines": "JZ",
     "id": "104 ST JZ",
     "audits": {
       "11-03-12": {
@@ -7047,8 +6823,6 @@
     }
   },
   {
-    "name": "111 ST",
-    "lines": "J",
     "id": "111 ST J",
     "audits": {
       "11-03-12": {
@@ -7110,8 +6884,6 @@
     }
   },
   {
-    "name": "121 ST",
-    "lines": "JZ",
     "id": "121 ST JZ",
     "audits": {
       "11-03-12": {
@@ -7173,8 +6945,6 @@
     }
   },
   {
-    "name": "CENTRAL AVE",
-    "lines": "M",
     "id": "CENTRAL AVE M",
     "audits": {
       "11-03-12": {
@@ -7236,8 +7006,6 @@
     }
   },
   {
-    "name": "SENECA AVE",
-    "lines": "M",
     "id": "SENECA AVE M",
     "audits": {
       "11-03-12": {
@@ -7299,8 +7067,6 @@
     }
   },
   {
-    "name": "FOREST AVE",
-    "lines": "M",
     "id": "FOREST AVE M",
     "audits": {
       "11-03-12": {
@@ -7362,8 +7128,6 @@
     }
   },
   {
-    "name": "FRESH POND ROAD",
-    "lines": "M",
     "id": "FRESH POND ROAD M",
     "audits": {
       "11-03-12": {
@@ -7425,8 +7189,6 @@
     }
   },
   {
-    "name": "METROPOLITAN AV",
-    "lines": "M",
     "id": "METROPOLITAN AV M",
     "audits": {
       "11-03-12": {
@@ -7488,8 +7250,6 @@
     }
   },
   {
-    "name": "INWOOD-207 ST",
-    "lines": "A",
     "id": "INWOOD-207 ST A",
     "audits": {
       "11-03-12": {
@@ -7551,8 +7311,6 @@
     }
   },
   {
-    "name": "190 ST",
-    "lines": "A",
     "id": "190 ST A",
     "audits": {
       "11-03-12": {
@@ -7614,8 +7372,6 @@
     }
   },
   {
-    "name": "181 ST",
-    "lines": "A",
     "id": "181 ST A",
     "audits": {
       "11-03-12": {
@@ -7677,8 +7433,6 @@
     }
   },
   {
-    "name": "175 ST",
-    "lines": "A",
     "id": "175 ST A",
     "audits": {
       "11-03-12": {
@@ -7740,8 +7494,6 @@
     }
   },
   {
-    "name": "168 ST-BROADWAY",
-    "lines": "1AC",
     "id": "168 ST-BROADWAY 1AC",
     "audits": {
       "11-03-12": {
@@ -7803,8 +7555,6 @@
     }
   },
   {
-    "name": "163 ST-AMSTERDM",
-    "lines": "C",
     "id": "163 ST-AMSTERDM C",
     "audits": {
       "11-03-12": {
@@ -7866,8 +7616,6 @@
     }
   },
   {
-    "name": "155 ST",
-    "lines": "C",
     "id": "155 ST C",
     "audits": {
       "11-03-12": {
@@ -7929,8 +7677,6 @@
     }
   },
   {
-    "name": "145 ST",
-    "lines": "ABCD",
     "id": "145 ST ABCD",
     "audits": {
       "11-03-12": {
@@ -7992,8 +7738,6 @@
     }
   },
   {
-    "name": "135 ST",
-    "lines": "BC",
     "id": "135 ST BC",
     "audits": {
       "11-03-12": {
@@ -8055,8 +7799,6 @@
     }
   },
   {
-    "name": "125 ST",
-    "lines": "ACBD",
     "id": "125 ST ACBD",
     "audits": {
       "11-03-12": {
@@ -8118,8 +7860,6 @@
     }
   },
   {
-    "name": "116 ST",
-    "lines": "BC",
     "id": "116 ST BC",
     "audits": {
       "11-03-12": {
@@ -8181,8 +7921,6 @@
     }
   },
   {
-    "name": "CATHEDRL-110 ST",
-    "lines": "BC",
     "id": "CATHEDRL-110 ST BC",
     "audits": {
       "11-03-12": {
@@ -8244,8 +7982,6 @@
     }
   },
   {
-    "name": "103 ST",
-    "lines": "BC",
     "id": "103 ST BC",
     "audits": {
       "11-03-12": {
@@ -8307,8 +8043,6 @@
     }
   },
   {
-    "name": "96 ST",
-    "lines": "BC",
     "id": "96 ST BC",
     "audits": {
       "11-03-12": {
@@ -8370,8 +8104,6 @@
     }
   },
   {
-    "name": "86 ST",
-    "lines": "BC",
     "id": "86 ST BC",
     "audits": {
       "11-03-12": {
@@ -8433,8 +8165,6 @@
     }
   },
   {
-    "name": "81 ST-MUSEUM",
-    "lines": "BC",
     "id": "81 ST-MUSEUM BC",
     "audits": {
       "11-03-12": {
@@ -8496,8 +8226,6 @@
     }
   },
   {
-    "name": "72 ST",
-    "lines": "BC",
     "id": "72 ST BC",
     "audits": {
       "11-03-12": {
@@ -8559,8 +8287,6 @@
     }
   },
   {
-    "name": "59 ST-COLUMBUS",
-    "lines": "1ABCD",
     "id": "59 ST-COLUMBUS 1ABCD",
     "audits": {
       "11-03-12": {
@@ -8622,8 +8348,6 @@
     }
   },
   {
-    "name": "50 ST",
-    "lines": "CE",
     "id": "50 ST CE",
     "audits": {
       "11-03-12": {
@@ -8685,8 +8409,6 @@
     }
   },
   {
-    "name": "42 ST-PA BUS TE",
-    "lines": "ACENQRS1237",
     "id": "42 ST-PA BUS TE ACENQRS1237",
     "audits": {
       "11-03-12": {
@@ -8748,8 +8470,6 @@
     }
   },
   {
-    "name": "34 ST-PENN STA",
-    "lines": "ACE",
     "id": "34 ST-PENN STA ACE",
     "audits": {
       "11-03-12": {
@@ -8811,8 +8531,6 @@
     }
   },
   {
-    "name": "23 ST",
-    "lines": "CE",
     "id": "23 ST CE",
     "audits": {
       "11-03-12": {
@@ -8874,8 +8592,6 @@
     }
   },
   {
-    "name": "W 4 ST-WASH SQ",
-    "lines": "ABCDEFM",
     "id": "W 4 ST-WASH SQ ABCDEFM",
     "audits": {
       "11-03-12": {
@@ -8936,8 +8652,6 @@
     }
   },
   {
-    "name": "SPRING ST",
-    "lines": "CE",
     "id": "SPRING ST CE",
     "audits": {
       "11-03-12": {
@@ -8997,8 +8711,6 @@
     }
   },
   {
-    "name": "CANAL ST",
-    "lines": "ACE",
     "id": "CANAL ST ACE",
     "audits": {
       "11-03-12": {
@@ -9059,8 +8771,6 @@
     }
   },
   {
-    "name": "PARK PLACE",
-    "lines": "23ACE",
     "id": "PARK PLACE 23ACE",
     "audits": {
       "11-03-12": {
@@ -9122,8 +8832,6 @@
     }
   },
   {
-    "name": "FULTON ST",
-    "lines": "ACJZ2345",
     "id": "FULTON ST ACJZ2345",
     "audits": {
       "11-03-12": {
@@ -9185,8 +8893,6 @@
     }
   },
   {
-    "name": "HIGH ST",
-    "lines": "AC",
     "id": "HIGH ST AC",
     "audits": {
       "11-03-12": {
@@ -9248,8 +8954,6 @@
     }
   },
   {
-    "name": "JAY ST-METROTEC",
-    "lines": "ACF",
     "id": "JAY ST-METROTEC ACF",
     "audits": {
       "11-03-12": {
@@ -9311,8 +9015,6 @@
     }
   },
   {
-    "name": "HOYT/SCHERMER",
-    "lines": "ACG",
     "id": "HOYT/SCHERMER ACG",
     "audits": {
       "11-03-12": {
@@ -9374,8 +9076,6 @@
     }
   },
   {
-    "name": "LAFAYETTE AVE",
-    "lines": "C",
     "id": "LAFAYETTE AVE C",
     "audits": {
       "11-03-12": {
@@ -9437,8 +9137,6 @@
     }
   },
   {
-    "name": "CLINTON-WASH AV",
-    "lines": "C",
     "id": "CLINTON-WASH AV C",
     "audits": {
       "11-03-12": {
@@ -9500,8 +9198,6 @@
     }
   },
   {
-    "name": "NOSTRAND AVE",
-    "lines": "AC",
     "id": "NOSTRAND AVE AC",
     "audits": {
       "11-03-12": {
@@ -9563,8 +9259,6 @@
     }
   },
   {
-    "name": "KINGSTON-THROOP",
-    "lines": "C",
     "id": "KINGSTON-THROOP C",
     "audits": {
       "11-03-12": {
@@ -9626,8 +9320,6 @@
     }
   },
   {
-    "name": "UTICA AVE",
-    "lines": "AC",
     "id": "UTICA AVE AC",
     "audits": {
       "11-03-12": {
@@ -9689,8 +9381,6 @@
     }
   },
   {
-    "name": "RALPH AVE",
-    "lines": "C",
     "id": "RALPH AVE C",
     "audits": {
       "11-03-12": {
@@ -9752,8 +9442,6 @@
     }
   },
   {
-    "name": "ROCKAWAY AVE",
-    "lines": "C",
     "id": "ROCKAWAY AVE C",
     "audits": {
       "11-03-12": {
@@ -9815,8 +9503,6 @@
     }
   },
   {
-    "name": "BROADWAY-ENY",
-    "lines": "ACJLZ",
     "id": "BROADWAY-ENY ACJLZ",
     "audits": {
       "11-03-12": {
@@ -9878,8 +9564,6 @@
     }
   },
   {
-    "name": "LIBERTY AVE",
-    "lines": "C",
     "id": "LIBERTY AVE C",
     "audits": {
       "11-03-12": {
@@ -9941,8 +9625,6 @@
     }
   },
   {
-    "name": "VAN SICLEN AVE",
-    "lines": "C",
     "id": "VAN SICLEN AVE C",
     "audits": {
       "11-03-12": {
@@ -10004,8 +9686,6 @@
     }
   },
   {
-    "name": "SHEPHERD AVE",
-    "lines": "C",
     "id": "SHEPHERD AVE C",
     "audits": {
       "11-03-12": {
@@ -10067,8 +9747,6 @@
     }
   },
   {
-    "name": "EUCLID AVE",
-    "lines": "AC",
     "id": "EUCLID AVE AC",
     "audits": {
       "11-03-12": {
@@ -10130,8 +9808,6 @@
     }
   },
   {
-    "name": "GRANT AVE",
-    "lines": "A",
     "id": "GRANT AVE A",
     "audits": {
       "11-03-12": {
@@ -10181,8 +9857,6 @@
     }
   },
   {
-    "name": "HUDSON-80 ST",
-    "lines": "A",
     "id": "HUDSON-80 ST A",
     "audits": {
       "11-03-12": {
@@ -10244,8 +9918,6 @@
     }
   },
   {
-    "name": "BOYD-88 ST",
-    "lines": "A",
     "id": "BOYD-88 ST A",
     "audits": {
       "11-03-12": {
@@ -10307,8 +9979,6 @@
     }
   },
   {
-    "name": "ROCKAWAY BLVD",
-    "lines": "A",
     "id": "ROCKAWAY BLVD A",
     "audits": {
       "11-03-12": {
@@ -10370,8 +10040,6 @@
     }
   },
   {
-    "name": "OXFORD-104 ST",
-    "lines": "A",
     "id": "OXFORD-104 ST A",
     "audits": {
       "11-03-12": {
@@ -10433,8 +10101,6 @@
     }
   },
   {
-    "name": "GREENWOOD-111",
-    "lines": "A",
     "id": "GREENWOOD-111 A",
     "audits": {
       "11-03-12": {
@@ -10496,8 +10162,6 @@
     }
   },
   {
-    "name": "LEFFERTS BLVD",
-    "lines": "A",
     "id": "LEFFERTS BLVD A",
     "audits": {
       "11-03-12": {
@@ -10559,8 +10223,6 @@
     }
   },
   {
-    "name": "AQUEDUCT-N CNDT",
-    "lines": "A",
     "id": "AQUEDUCT-N CNDT A",
     "audits": {
       "11-05-12": {
@@ -10571,8 +10233,6 @@
     }
   },
   {
-    "name": "HOWARD BCH-JFK",
-    "lines": "A",
     "id": "HOWARD BCH-JFK A",
     "audits": {
       "11-05-12": {
@@ -10618,8 +10278,6 @@
     }
   },
   {
-    "name": "155 ST",
-    "lines": "BD",
     "id": "155 ST BD",
     "audits": {
       "11-03-12": {
@@ -10681,8 +10339,6 @@
     }
   },
   {
-    "name": "161 ST-YANKEE",
-    "lines": "BD4",
     "id": "161 ST-YANKEE BD4",
     "audits": {
       "11-03-12": {
@@ -10744,8 +10400,6 @@
     }
   },
   {
-    "name": "167 ST",
-    "lines": "BD",
     "id": "167 ST BD",
     "audits": {
       "11-03-12": {
@@ -10807,8 +10461,6 @@
     }
   },
   {
-    "name": "170 ST",
-    "lines": "BD",
     "id": "170 ST BD",
     "audits": {
       "11-03-12": {
@@ -10870,8 +10522,6 @@
     }
   },
   {
-    "name": "174-175 ST",
-    "lines": "BD",
     "id": "174-175 ST BD",
     "audits": {
       "11-03-12": {
@@ -10933,8 +10583,6 @@
     }
   },
   {
-    "name": "FORDHAM ROAD",
-    "lines": "BD",
     "id": "FORDHAM ROAD BD",
     "audits": {
       "11-03-12": {
@@ -10996,8 +10644,6 @@
     }
   },
   {
-    "name": "KINGSBRIDGE RD",
-    "lines": "BD",
     "id": "KINGSBRIDGE RD BD",
     "audits": {
       "11-03-12": {
@@ -11059,8 +10705,6 @@
     }
   },
   {
-    "name": "BEDFORD PARK BL",
-    "lines": "BD",
     "id": "BEDFORD PARK BL BD",
     "audits": {
       "11-03-12": {
@@ -11122,8 +10766,6 @@
     }
   },
   {
-    "name": "NORWOOD-205 ST",
-    "lines": "D",
     "id": "NORWOOD-205 ST D",
     "audits": {
       "11-03-12": {
@@ -11185,8 +10827,6 @@
     }
   },
   {
-    "name": "7 AVE-53 ST",
-    "lines": "BDE",
     "id": "7 AVE-53 ST BDE",
     "audits": {
       "11-03-12": {
@@ -11248,8 +10888,6 @@
     }
   },
   {
-    "name": "LEXINGTON-53 ST",
-    "lines": "EM6",
     "id": "LEXINGTON-53 ST EM6",
     "audits": {
       "11-03-12": {
@@ -11311,8 +10949,6 @@
     }
   },
   {
-    "name": "COURT SQ-23 ST",
-    "lines": "EMG",
     "id": "COURT SQ-23 ST EMG",
     "audits": {
       "11-03-12": {
@@ -11374,8 +11010,6 @@
     }
   },
   {
-    "name": "QUEENS PLAZA",
-    "lines": "EMR",
     "id": "QUEENS PLAZA EMR",
     "audits": {
       "11-03-12": {
@@ -11437,8 +11071,6 @@
     }
   },
   {
-    "name": "36 ST",
-    "lines": "MR",
     "id": "36 ST MR",
     "audits": {
       "11-03-12": {
@@ -11500,8 +11132,6 @@
     }
   },
   {
-    "name": "STEINWAY ST",
-    "lines": "MR",
     "id": "STEINWAY ST MR",
     "audits": {
       "11-03-12": {
@@ -11563,8 +11193,6 @@
     }
   },
   {
-    "name": "46 ST",
-    "lines": "MR",
     "id": "46 ST MR",
     "audits": {
       "11-03-12": {
@@ -11614,8 +11242,6 @@
     }
   },
   {
-    "name": "NORTHERN BLVD",
-    "lines": "MR",
     "id": "NORTHERN BLVD MR",
     "audits": {
       "11-03-12": {
@@ -11677,8 +11303,6 @@
     }
   },
   {
-    "name": "65 ST",
-    "lines": "MR",
     "id": "65 ST MR",
     "audits": {
       "11-03-12": {
@@ -11740,8 +11364,6 @@
     }
   },
   {
-    "name": "ROOSEVELT AVE",
-    "lines": "EFMR7",
     "id": "ROOSEVELT AVE EFMR7",
     "audits": {
       "11-03-12": {
@@ -11785,8 +11407,6 @@
     }
   },
   {
-    "name": "ELMHURST AVE",
-    "lines": "MR",
     "id": "ELMHURST AVE MR",
     "audits": {
       "11-03-12": {
@@ -11848,8 +11468,6 @@
     }
   },
   {
-    "name": "GRAND AV-NEWTON",
-    "lines": "MR",
     "id": "GRAND AV-NEWTON MR",
     "audits": {
       "11-03-12": {
@@ -11911,8 +11529,6 @@
     }
   },
   {
-    "name": "WOODHAVEN BLVD",
-    "lines": "MR",
     "id": "WOODHAVEN BLVD MR",
     "audits": {
       "11-03-12": {
@@ -11974,8 +11590,6 @@
     }
   },
   {
-    "name": "63 DR-REGO PARK",
-    "lines": "MR",
     "id": "63 DR-REGO PARK MR",
     "audits": {
       "11-03-12": {
@@ -12037,8 +11651,6 @@
     }
   },
   {
-    "name": "67 AVE",
-    "lines": "MR",
     "id": "67 AVE MR",
     "audits": {
       "11-03-12": {
@@ -12100,8 +11712,6 @@
     }
   },
   {
-    "name": "FOREST HILLS-71",
-    "lines": "EFMR",
     "id": "FOREST HILLS-71 EFMR",
     "audits": {
       "11-03-12": {
@@ -12162,8 +11772,6 @@
     }
   },
   {
-    "name": "75 AVE",
-    "lines": "EF",
     "id": "75 AVE EF",
     "audits": {
       "11-03-12": {
@@ -12225,8 +11833,6 @@
     }
   },
   {
-    "name": "UNION TPK-KEW G",
-    "lines": "EF",
     "id": "UNION TPK-KEW G EF",
     "audits": {
       "11-03-12": {
@@ -12288,8 +11894,6 @@
     }
   },
   {
-    "name": "VAN WYCK BLVD",
-    "lines": "EF",
     "id": "VAN WYCK BLVD EF",
     "audits": {
       "11-03-12": {
@@ -12351,8 +11955,6 @@
     }
   },
   {
-    "name": "SUTPHIN BLVD",
-    "lines": "F",
     "id": "SUTPHIN BLVD F",
     "audits": {
       "11-03-12": {
@@ -12414,8 +12016,6 @@
     }
   },
   {
-    "name": "PARSONS BLVD",
-    "lines": "F",
     "id": "PARSONS BLVD F",
     "audits": {
       "11-03-12": {
@@ -12477,8 +12077,6 @@
     }
   },
   {
-    "name": "169 ST",
-    "lines": "F",
     "id": "169 ST F",
     "audits": {
       "11-03-12": {
@@ -12540,8 +12138,6 @@
     }
   },
   {
-    "name": "JAMAICA-179 ST",
-    "lines": "F",
     "id": "JAMAICA-179 ST F",
     "audits": {
       "11-03-12": {
@@ -12603,8 +12199,6 @@
     }
   },
   {
-    "name": "VAN ALSTON-21ST",
-    "lines": "G",
     "id": "VAN ALSTON-21ST G",
     "audits": {
       "11-03-12": {
@@ -12665,8 +12259,6 @@
     }
   },
   {
-    "name": "GREENPOINT AVE",
-    "lines": "G",
     "id": "GREENPOINT AVE G",
     "audits": {
       "11-03-12": {
@@ -12728,8 +12320,6 @@
     }
   },
   {
-    "name": "NASSAU AV",
-    "lines": "G",
     "id": "NASSAU AV G",
     "audits": {
       "11-03-12": {
@@ -12791,8 +12381,6 @@
     }
   },
   {
-    "name": "BROADWAY",
-    "lines": "G",
     "id": "BROADWAY G",
     "audits": {
       "11-03-12": {
@@ -12854,8 +12442,6 @@
     }
   },
   {
-    "name": "FLUSHING AVE",
-    "lines": "G",
     "id": "FLUSHING AVE G",
     "audits": {
       "11-03-12": {
@@ -12917,8 +12503,6 @@
     }
   },
   {
-    "name": "BEDFORD/NOSTRAN",
-    "lines": "G",
     "id": "BEDFORD/NOSTRAN G",
     "audits": {
       "11-03-12": {
@@ -12980,8 +12564,6 @@
     }
   },
   {
-    "name": "CLASSON AVE",
-    "lines": "G",
     "id": "CLASSON AVE G",
     "audits": {
       "11-03-12": {
@@ -13043,8 +12625,6 @@
     }
   },
   {
-    "name": "CLINTON-WASH AV",
-    "lines": "G",
     "id": "CLINTON-WASH AV G",
     "audits": {
       "11-03-12": {
@@ -13106,8 +12686,6 @@
     }
   },
   {
-    "name": "FULTON ST",
-    "lines": "G",
     "id": "FULTON ST G",
     "audits": {
       "11-03-12": {
@@ -13169,8 +12747,6 @@
     }
   },
   {
-    "name": "47-50 ST-ROCK",
-    "lines": "BDFM",
     "id": "47-50 ST-ROCK BDFM",
     "audits": {
       "11-03-12": {
@@ -13232,8 +12808,6 @@
     }
   },
   {
-    "name": "42 ST-BRYANT PK",
-    "lines": "BDFM7",
     "id": "42 ST-BRYANT PK BDFM7",
     "audits": {
       "11-03-12": {
@@ -13295,8 +12869,6 @@
     }
   },
   {
-    "name": "23 ST-6 AVE",
-    "lines": "FM",
     "id": "23 ST-6 AVE FM",
     "audits": {
       "11-03-12": {
@@ -13358,8 +12930,6 @@
     }
   },
   {
-    "name": "BROADWAY/LAFAY",
-    "lines": "BDFQ6",
     "id": "BROADWAY/LAFAY BDFQ6",
     "audits": {
       "11-03-12": {
@@ -13421,8 +12991,6 @@
     }
   },
   {
-    "name": "2 AVE",
-    "lines": "F",
     "id": "2 AVE F",
     "audits": {
       "11-03-12": {
@@ -13484,8 +13052,6 @@
     }
   },
   {
-    "name": "EAST BROADWAY",
-    "lines": "F",
     "id": "EAST BROADWAY F",
     "audits": {
       "11-03-12": {
@@ -13507,8 +13073,6 @@
     }
   },
   {
-    "name": "YORK ST",
-    "lines": "F",
     "id": "YORK ST F",
     "audits": {
       "11-03-12": {
@@ -13570,8 +13134,6 @@
     }
   },
   {
-    "name": "BERGEN ST",
-    "lines": "FG",
     "id": "BERGEN ST FG",
     "audits": {
       "11-06-12": {
@@ -13619,8 +13181,6 @@
     }
   },
   {
-    "name": "CARROLL ST",
-    "lines": "FG",
     "id": "CARROLL ST FG",
     "audits": {
       "11-03-12": {
@@ -13682,8 +13242,6 @@
     }
   },
   {
-    "name": "7 AV-PARK SLOPE",
-    "lines": "FG",
     "id": "7 AV-PARK SLOPE FG",
     "audits": {
       "11-03-12": {
@@ -13745,8 +13303,6 @@
     }
   },
   {
-    "name": "15 ST-PROSPECT",
-    "lines": "FG",
     "id": "15 ST-PROSPECT FG",
     "audits": {
       "11-03-12": {
@@ -13808,8 +13364,6 @@
     }
   },
   {
-    "name": "FT HAMILTON PKY",
-    "lines": "FG",
     "id": "FT HAMILTON PKY FG",
     "audits": {
       "11-03-12": {
@@ -13871,8 +13425,6 @@
     }
   },
   {
-    "name": "CHURCH AVE",
-    "lines": "FG",
     "id": "CHURCH AVE FG",
     "audits": {
       "11-03-12": {
@@ -13934,8 +13486,6 @@
     }
   },
   {
-    "name": "DITMAS AVE",
-    "lines": "F",
     "id": "DITMAS AVE F",
     "audits": {
       "11-03-12": {
@@ -13997,8 +13547,6 @@
     }
   },
   {
-    "name": "18 AVE",
-    "lines": "F",
     "id": "18 AVE F",
     "audits": {
       "11-03-12": {
@@ -14060,8 +13608,6 @@
     }
   },
   {
-    "name": "AVE I",
-    "lines": "F",
     "id": "AVE I F",
     "audits": {
       "11-03-12": {
@@ -14123,8 +13669,6 @@
     }
   },
   {
-    "name": "22 AVE-BAY PKY",
-    "lines": "F",
     "id": "22 AVE-BAY PKY F",
     "audits": {
       "11-03-12": {
@@ -14186,8 +13730,6 @@
     }
   },
   {
-    "name": "AVE N",
-    "lines": "F",
     "id": "AVE N F",
     "audits": {
       "11-03-12": {
@@ -14249,8 +13791,6 @@
     }
   },
   {
-    "name": "AVE P",
-    "lines": "F",
     "id": "AVE P F",
     "audits": {
       "11-03-12": {
@@ -14312,8 +13852,6 @@
     }
   },
   {
-    "name": "KINGS HIGHWAY",
-    "lines": "F",
     "id": "KINGS HIGHWAY F",
     "audits": {
       "11-03-12": {
@@ -14375,8 +13913,6 @@
     }
   },
   {
-    "name": "AVE U",
-    "lines": "F",
     "id": "AVE U F",
     "audits": {
       "11-03-12": {
@@ -14438,8 +13974,6 @@
     }
   },
   {
-    "name": "AVE X",
-    "lines": "F",
     "id": "AVE X F",
     "audits": {
       "11-03-12": {
@@ -14501,8 +14035,6 @@
     }
   },
   {
-    "name": "NEPTUNE AVE",
-    "lines": "F",
     "id": "NEPTUNE AVE F",
     "audits": {
       "11-03-12": {
@@ -14564,8 +14096,6 @@
     }
   },
   {
-    "name": "57 ST",
-    "lines": "F",
     "id": "57 ST F",
     "audits": {
       "11-03-12": {
@@ -14627,8 +14157,6 @@
     }
   },
   {
-    "name": "LEXINGTON AVE",
-    "lines": "F",
     "id": "LEXINGTON AVE F",
     "audits": {
       "11-03-12": {
@@ -14690,8 +14218,6 @@
     }
   },
   {
-    "name": "JAMAICA-VAN WYC",
-    "lines": "E",
     "id": "JAMAICA-VAN WYC E",
     "audits": {
       "11-03-12": {
@@ -14753,8 +14279,6 @@
     }
   },
   {
-    "name": "SUTPHIN BLVD",
-    "lines": "EJZ",
     "id": "SUTPHIN BLVD EJZ",
     "audits": {
       "11-03-12": {
@@ -14816,8 +14340,6 @@
     }
   },
   {
-    "name": "JAMAICA CENTER",
-    "lines": "EJZ",
     "id": "JAMAICA CENTER EJZ",
     "audits": {
       "11-03-12": {
@@ -14879,8 +14401,6 @@
     }
   },
   {
-    "name": "NEWARK HW BMEBE",
-    "lines": "1",
     "id": "NEWARK HW BMEBE 1",
     "audits": {
       "11-03-12": {
@@ -14942,8 +14462,6 @@
     }
   },
   {
-    "name": "JOURNAL SQUARE",
-    "lines": "1",
     "id": "JOURNAL SQUARE 1",
     "audits": {
       "11-03-12": {
@@ -15000,8 +14518,6 @@
     }
   },
   {
-    "name": "GROVE STREET",
-    "lines": "1",
     "id": "GROVE STREET 1",
     "audits": {
       "11-04-12": {
@@ -15051,8 +14567,6 @@
     }
   },
   {
-    "name": "PAVONIA/NEWPORT",
-    "lines": "1",
     "id": "PAVONIA/NEWPORT 1",
     "audits": {
       "11-03-12": {
@@ -15112,8 +14626,6 @@
     }
   },
   {
-    "name": "CITY / BUS",
-    "lines": "1",
     "id": "CITY / BUS 1",
     "audits": {
       "11-06-12": {
@@ -15149,8 +14661,6 @@
     }
   },
   {
-    "name": "CHRISTOPHER ST",
-    "lines": "1",
     "id": "CHRISTOPHER ST 1",
     "audits": {
       "11-03-12": {
@@ -15212,8 +14722,6 @@
     }
   },
   {
-    "name": "9TH STREET",
-    "lines": "1",
     "id": "9TH STREET 1",
     "audits": {
       "11-03-12": {
@@ -15275,8 +14783,6 @@
     }
   },
   {
-    "name": "14TH STREET",
-    "lines": "1",
     "id": "14TH STREET 1",
     "audits": {
       "11-03-12": {
@@ -15338,8 +14844,6 @@
     }
   },
   {
-    "name": "TWENTY THIRD ST",
-    "lines": "1",
     "id": "TWENTY THIRD ST 1",
     "audits": {
       "11-03-12": {
@@ -15401,8 +14905,6 @@
     }
   },
   {
-    "name": "THIRTY ST",
-    "lines": "1",
     "id": "THIRTY ST 1",
     "audits": {
       "11-03-12": {
@@ -15464,8 +14966,6 @@
     }
   },
   {
-    "name": "RECTOR ST",
-    "lines": "1",
     "id": "RECTOR ST 1",
     "audits": {
       "11-03-12": {
@@ -15527,8 +15027,6 @@
     }
   },
   {
-    "name": "WALL ST",
-    "lines": "23",
     "id": "WALL ST 23",
     "audits": {
       "11-03-12": {
@@ -15590,8 +15088,6 @@
     }
   },
   {
-    "name": "CHAMBERS ST",
-    "lines": "123",
     "id": "CHAMBERS ST 123",
     "audits": {
       "11-03-12": {
@@ -15649,8 +15145,6 @@
     }
   },
   {
-    "name": "FRANKLIN ST",
-    "lines": "1",
     "id": "FRANKLIN ST 1",
     "audits": {
       "11-03-12": {
@@ -15711,8 +15205,6 @@
     }
   },
   {
-    "name": "CANAL ST",
-    "lines": "1",
     "id": "CANAL ST 1",
     "audits": {
       "11-03-12": {
@@ -15773,8 +15265,6 @@
     }
   },
   {
-    "name": "HOUSTON ST",
-    "lines": "1",
     "id": "HOUSTON ST 1",
     "audits": {
       "11-03-12": {
@@ -15835,8 +15325,6 @@
     }
   },
   {
-    "name": "14 ST",
-    "lines": "123FLM",
     "id": "14 ST 123FLM",
     "audits": {
       "11-03-12": {
@@ -15897,8 +15385,6 @@
     }
   },
   {
-    "name": "18 ST",
-    "lines": "1",
     "id": "18 ST 1",
     "audits": {
       "11-03-12": {
@@ -15960,8 +15446,6 @@
     }
   },
   {
-    "name": "23 ST",
-    "lines": "1",
     "id": "23 ST 1",
     "audits": {
       "11-03-12": {
@@ -16022,8 +15506,6 @@
     }
   },
   {
-    "name": "28 ST",
-    "lines": "1",
     "id": "28 ST 1",
     "audits": {
       "11-03-12": {
@@ -16085,8 +15567,6 @@
     }
   },
   {
-    "name": "34 ST-PENN STA",
-    "lines": "123",
     "id": "34 ST-PENN STA 123",
     "audits": {
       "11-03-12": {
@@ -16148,8 +15628,6 @@
     }
   },
   {
-    "name": "34 ST-PENN STA",
-    "lines": "123ACE",
     "id": "34 ST-PENN STA 123ACE",
     "audits": {
       "11-03-12": {
@@ -16211,8 +15689,6 @@
     }
   },
   {
-    "name": "50 ST",
-    "lines": "1",
     "id": "50 ST 1",
     "audits": {
       "11-03-12": {
@@ -16274,8 +15750,6 @@
     }
   },
   {
-    "name": "66 ST-LINCOLN",
-    "lines": "1",
     "id": "66 ST-LINCOLN 1",
     "audits": {
       "11-03-12": {
@@ -16337,8 +15811,6 @@
     }
   },
   {
-    "name": "72 ST",
-    "lines": "123",
     "id": "72 ST 123",
     "audits": {
       "11-03-12": {
@@ -16400,8 +15872,6 @@
     }
   },
   {
-    "name": "79 ST",
-    "lines": "1",
     "id": "79 ST 1",
     "audits": {
       "11-03-12": {
@@ -16463,8 +15933,6 @@
     }
   },
   {
-    "name": "86 ST",
-    "lines": "1",
     "id": "86 ST 1",
     "audits": {
       "11-03-12": {
@@ -16526,8 +15994,6 @@
     }
   },
   {
-    "name": "96 ST",
-    "lines": "123",
     "id": "96 ST 123",
     "audits": {
       "11-03-12": {
@@ -16589,8 +16055,6 @@
     }
   },
   {
-    "name": "110 ST-CATHEDRL",
-    "lines": "1",
     "id": "110 ST-CATHEDRL 1",
     "audits": {
       "11-03-12": {
@@ -16652,8 +16116,6 @@
     }
   },
   {
-    "name": "116 ST-COLUMBIA",
-    "lines": "1",
     "id": "116 ST-COLUMBIA 1",
     "audits": {
       "11-03-12": {
@@ -16715,8 +16177,6 @@
     }
   },
   {
-    "name": "125 ST",
-    "lines": "1",
     "id": "125 ST 1",
     "audits": {
       "11-03-12": {
@@ -16778,8 +16238,6 @@
     }
   },
   {
-    "name": "145 ST",
-    "lines": "1",
     "id": "145 ST 1",
     "audits": {
       "11-03-12": {
@@ -16841,8 +16299,6 @@
     }
   },
   {
-    "name": "157 ST",
-    "lines": "1",
     "id": "157 ST 1",
     "audits": {
       "11-03-12": {
@@ -16904,8 +16360,6 @@
     }
   },
   {
-    "name": "181 ST",
-    "lines": "1",
     "id": "181 ST 1",
     "audits": {
       "11-03-12": {
@@ -16966,8 +16420,6 @@
     }
   },
   {
-    "name": "191 ST",
-    "lines": "1",
     "id": "191 ST 1",
     "audits": {
       "11-03-12": {
@@ -17029,8 +16481,6 @@
     }
   },
   {
-    "name": "DYCKMAN ST",
-    "lines": "1",
     "id": "DYCKMAN ST 1",
     "audits": {
       "11-03-12": {
@@ -17092,8 +16542,6 @@
     }
   },
   {
-    "name": "207 ST",
-    "lines": "1",
     "id": "207 ST 1",
     "audits": {
       "11-03-12": {
@@ -17155,8 +16603,6 @@
     }
   },
   {
-    "name": "215 ST",
-    "lines": "1",
     "id": "215 ST 1",
     "audits": {
       "11-03-12": {
@@ -17218,8 +16664,6 @@
     }
   },
   {
-    "name": "231 ST",
-    "lines": "1",
     "id": "231 ST 1",
     "audits": {
       "11-03-12": {
@@ -17281,8 +16725,6 @@
     }
   },
   {
-    "name": "238 ST",
-    "lines": "1",
     "id": "238 ST 1",
     "audits": {
       "11-03-12": {
@@ -17344,8 +16786,6 @@
     }
   },
   {
-    "name": "242 ST",
-    "lines": "1",
     "id": "242 ST 1",
     "audits": {
       "11-03-12": {
@@ -17407,8 +16847,6 @@
     }
   },
   {
-    "name": "BOWLING GREEN",
-    "lines": "45",
     "id": "BOWLING GREEN 45",
     "audits": {
       "11-03-12": {
@@ -17470,8 +16908,6 @@
     }
   },
   {
-    "name": "WALL ST",
-    "lines": "45",
     "id": "WALL ST 45",
     "audits": {
       "11-03-12": {
@@ -17533,8 +16969,6 @@
     }
   },
   {
-    "name": "SPRING ST",
-    "lines": "6",
     "id": "SPRING ST 6",
     "audits": {
       "11-03-12": {
@@ -17596,8 +17030,6 @@
     }
   },
   {
-    "name": "ASTOR PLACE",
-    "lines": "6",
     "id": "ASTOR PLACE 6",
     "audits": {
       "11-03-12": {
@@ -17659,8 +17091,6 @@
     }
   },
   {
-    "name": "23 ST",
-    "lines": "6",
     "id": "23 ST 6",
     "audits": {
       "11-03-12": {
@@ -17722,8 +17152,6 @@
     }
   },
   {
-    "name": "28 ST",
-    "lines": "6",
     "id": "28 ST 6",
     "audits": {
       "11-03-12": {
@@ -17785,8 +17213,6 @@
     }
   },
   {
-    "name": "33 ST",
-    "lines": "6",
     "id": "33 ST 6",
     "audits": {
       "11-03-12": {
@@ -17848,8 +17274,6 @@
     }
   },
   {
-    "name": "42 ST-GRD CNTRL",
-    "lines": "4567S",
     "id": "42 ST-GRD CNTRL 4567S",
     "audits": {
       "11-03-12": {
@@ -17911,8 +17335,6 @@
     }
   },
   {
-    "name": "68ST-HUNTER COL",
-    "lines": "6",
     "id": "68ST-HUNTER COL 6",
     "audits": {
       "11-03-12": {
@@ -17974,8 +17396,6 @@
     }
   },
   {
-    "name": "77 ST",
-    "lines": "6",
     "id": "77 ST 6",
     "audits": {
       "11-03-12": {
@@ -18037,8 +17457,6 @@
     }
   },
   {
-    "name": "86 ST",
-    "lines": "456",
     "id": "86 ST 456",
     "audits": {
       "11-03-12": {
@@ -18100,8 +17518,6 @@
     }
   },
   {
-    "name": "96 ST",
-    "lines": "6",
     "id": "96 ST 6",
     "audits": {
       "11-03-12": {
@@ -18163,8 +17579,6 @@
     }
   },
   {
-    "name": "103 ST",
-    "lines": "6",
     "id": "103 ST 6",
     "audits": {
       "11-03-12": {
@@ -18226,8 +17640,6 @@
     }
   },
   {
-    "name": "110 ST",
-    "lines": "6",
     "id": "110 ST 6",
     "audits": {
       "11-03-12": {
@@ -18289,8 +17701,6 @@
     }
   },
   {
-    "name": "116 ST",
-    "lines": "6",
     "id": "116 ST 6",
     "audits": {
       "11-03-12": {
@@ -18352,8 +17762,6 @@
     }
   },
   {
-    "name": "125 ST",
-    "lines": "456",
     "id": "125 ST 456",
     "audits": {
       "11-03-12": {
@@ -18415,8 +17823,6 @@
     }
   },
   {
-    "name": "138 ST-GR CONC",
-    "lines": "45",
     "id": "138 ST-GR CONC 45",
     "audits": {
       "11-03-12": {
@@ -18443,8 +17849,6 @@
     }
   },
   {
-    "name": "149 ST-GR CONC",
-    "lines": "245",
     "id": "149 ST-GR CONC 245",
     "audits": {
       "11-03-12": {
@@ -18506,8 +17910,6 @@
     }
   },
   {
-    "name": "MT EDEN AVE",
-    "lines": "4",
     "id": "MT EDEN AVE 4",
     "audits": {
       "11-03-12": {
@@ -18569,8 +17971,6 @@
     }
   },
   {
-    "name": "176 ST",
-    "lines": "4",
     "id": "176 ST 4",
     "audits": {
       "11-03-12": {
@@ -18632,8 +18032,6 @@
     }
   },
   {
-    "name": "BURNSIDE AVE",
-    "lines": "4",
     "id": "BURNSIDE AVE 4",
     "audits": {
       "11-03-12": {
@@ -18652,8 +18050,6 @@
     }
   },
   {
-    "name": "183 ST",
-    "lines": "4",
     "id": "183 ST 4",
     "audits": {
       "11-03-12": {
@@ -18715,8 +18111,6 @@
     }
   },
   {
-    "name": "FORDHAM ROAD",
-    "lines": "4",
     "id": "FORDHAM ROAD 4",
     "audits": {
       "11-03-12": {
@@ -18778,8 +18172,6 @@
     }
   },
   {
-    "name": "KINGSBRIDGE RD",
-    "lines": "4",
     "id": "KINGSBRIDGE RD 4",
     "audits": {
       "11-03-12": {
@@ -18841,8 +18233,6 @@
     }
   },
   {
-    "name": "BEDFORD PARK BL",
-    "lines": "4",
     "id": "BEDFORD PARK BL 4",
     "audits": {
       "11-03-12": {
@@ -18904,8 +18294,6 @@
     }
   },
   {
-    "name": "MOSHOLU PARKWAY",
-    "lines": "4",
     "id": "MOSHOLU PARKWAY 4",
     "audits": {
       "11-03-12": {
@@ -18967,8 +18355,6 @@
     }
   },
   {
-    "name": "110 ST-CPN",
-    "lines": "23",
     "id": "110 ST-CPN 23",
     "audits": {
       "11-08-12": {
@@ -18977,8 +18363,6 @@
     }
   },
   {
-    "name": "116 ST",
-    "lines": "23",
     "id": "116 ST 23",
     "audits": {
       "11-03-12": {
@@ -19040,8 +18424,6 @@
     }
   },
   {
-    "name": "125 ST",
-    "lines": "23",
     "id": "125 ST 23",
     "audits": {
       "11-03-12": {
@@ -19103,8 +18485,6 @@
     }
   },
   {
-    "name": "135 ST",
-    "lines": "23",
     "id": "135 ST 23",
     "audits": {
       "11-03-12": {
@@ -19166,8 +18546,6 @@
     }
   },
   {
-    "name": "145 ST",
-    "lines": "3",
     "id": "145 ST 3",
     "audits": {
       "11-03-12": {
@@ -19229,8 +18607,6 @@
     }
   },
   {
-    "name": "148 ST-LENOX",
-    "lines": "3",
     "id": "148 ST-LENOX 3",
     "audits": {
       "11-03-12": {
@@ -19292,8 +18668,6 @@
     }
   },
   {
-    "name": "149 ST-3 AVE",
-    "lines": "25",
     "id": "149 ST-3 AVE 25",
     "audits": {
       "11-03-12": {
@@ -19355,8 +18729,6 @@
     }
   },
   {
-    "name": "JACKSON AVE",
-    "lines": "25",
     "id": "JACKSON AVE 25",
     "audits": {
       "11-03-12": {
@@ -19418,8 +18790,6 @@
     }
   },
   {
-    "name": "PROSPECT AVE",
-    "lines": "25",
     "id": "PROSPECT AVE 25",
     "audits": {
       "11-03-12": {
@@ -19481,8 +18851,6 @@
     }
   },
   {
-    "name": "INTERVALE-163",
-    "lines": "25",
     "id": "INTERVALE-163 25",
     "audits": {
       "11-03-12": {
@@ -19544,8 +18912,6 @@
     }
   },
   {
-    "name": "SIMPSON ST",
-    "lines": "25",
     "id": "SIMPSON ST 25",
     "audits": {
       "11-03-12": {
@@ -19607,8 +18973,6 @@
     }
   },
   {
-    "name": "FREEMAN ST",
-    "lines": "25",
     "id": "FREEMAN ST 25",
     "audits": {
       "11-03-12": {
@@ -19670,8 +19034,6 @@
     }
   },
   {
-    "name": "174 ST",
-    "lines": "25",
     "id": "174 ST 25",
     "audits": {
       "11-03-12": {
@@ -19733,8 +19095,6 @@
     }
   },
   {
-    "name": "E 180 ST",
-    "lines": "25",
     "id": "E 180 ST 25",
     "audits": {
       "11-03-12": {
@@ -19796,8 +19156,6 @@
     }
   },
   {
-    "name": "BRONX PARK EAST",
-    "lines": "25",
     "id": "BRONX PARK EAST 25",
     "audits": {
       "11-03-12": {
@@ -19859,8 +19217,6 @@
     }
   },
   {
-    "name": "PELHAM PARKWAY",
-    "lines": "25",
     "id": "PELHAM PARKWAY 25",
     "audits": {
       "11-03-12": {
@@ -19922,8 +19278,6 @@
     }
   },
   {
-    "name": "ALLERTON AVE",
-    "lines": "25",
     "id": "ALLERTON AVE 25",
     "audits": {
       "11-03-12": {
@@ -19985,8 +19339,6 @@
     }
   },
   {
-    "name": "BURKE AVE",
-    "lines": "25",
     "id": "BURKE AVE 25",
     "audits": {
       "11-03-12": {
@@ -20048,8 +19400,6 @@
     }
   },
   {
-    "name": "GUN HILL ROAD",
-    "lines": "25",
     "id": "GUN HILL ROAD 25",
     "audits": {
       "11-03-12": {
@@ -20111,8 +19461,6 @@
     }
   },
   {
-    "name": "219 ST",
-    "lines": "25",
     "id": "219 ST 25",
     "audits": {
       "11-03-12": {
@@ -20174,8 +19522,6 @@
     }
   },
   {
-    "name": "225 ST",
-    "lines": "25",
     "id": "225 ST 25",
     "audits": {
       "11-03-12": {
@@ -20237,8 +19583,6 @@
     }
   },
   {
-    "name": "233 ST",
-    "lines": "25",
     "id": "233 ST 25",
     "audits": {
       "11-03-12": {
@@ -20300,8 +19644,6 @@
     }
   },
   {
-    "name": "WAKEFIELD-241",
-    "lines": "2",
     "id": "WAKEFIELD-241 2",
     "audits": {
       "11-03-12": {
@@ -20363,8 +19705,6 @@
     }
   },
   {
-    "name": "BROOK AVE",
-    "lines": "6",
     "id": "BROOK AVE 6",
     "audits": {
       "11-03-12": {
@@ -20426,8 +19766,6 @@
     }
   },
   {
-    "name": "CYPRESS AVE",
-    "lines": "6",
     "id": "CYPRESS AVE 6",
     "audits": {
       "11-03-12": {
@@ -20489,8 +19827,6 @@
     }
   },
   {
-    "name": "E 143 ST",
-    "lines": "6",
     "id": "E 143 ST 6",
     "audits": {
       "11-03-12": {
@@ -20552,8 +19888,6 @@
     }
   },
   {
-    "name": "E 149 ST",
-    "lines": "6",
     "id": "E 149 ST 6",
     "audits": {
       "11-03-12": {
@@ -20615,8 +19949,6 @@
     }
   },
   {
-    "name": "LONGWOOD AVE",
-    "lines": "6",
     "id": "LONGWOOD AVE 6",
     "audits": {
       "11-03-12": {
@@ -20678,8 +20010,6 @@
     }
   },
   {
-    "name": "HUNTS POINT AVE",
-    "lines": "6",
     "id": "HUNTS POINT AVE 6",
     "audits": {
       "11-03-12": {
@@ -20741,8 +20071,6 @@
     }
   },
   {
-    "name": "WHITLOCK AVE",
-    "lines": "6",
     "id": "WHITLOCK AVE 6",
     "audits": {
       "11-03-12": {
@@ -20804,8 +20132,6 @@
     }
   },
   {
-    "name": "ELDER AVE",
-    "lines": "6",
     "id": "ELDER AVE 6",
     "audits": {
       "11-03-12": {
@@ -20867,8 +20193,6 @@
     }
   },
   {
-    "name": "MORRISON AVE",
-    "lines": "6",
     "id": "MORRISON AVE 6",
     "audits": {
       "11-03-12": {
@@ -20930,8 +20254,6 @@
     }
   },
   {
-    "name": "ST LAWRENCE AVE",
-    "lines": "6",
     "id": "ST LAWRENCE AVE 6",
     "audits": {
       "11-03-12": {
@@ -20993,8 +20315,6 @@
     }
   },
   {
-    "name": "E 177 ST-PARKCH",
-    "lines": "6",
     "id": "E 177 ST-PARKCH 6",
     "audits": {
       "11-03-12": {
@@ -21056,8 +20376,6 @@
     }
   },
   {
-    "name": "CASTLE HILL AVE",
-    "lines": "6",
     "id": "CASTLE HILL AVE 6",
     "audits": {
       "11-03-12": {
@@ -21119,8 +20437,6 @@
     }
   },
   {
-    "name": "ZEREGA AVE",
-    "lines": "6",
     "id": "ZEREGA AVE 6",
     "audits": {
       "11-03-12": {
@@ -21182,8 +20498,6 @@
     }
   },
   {
-    "name": "WESTCHESTER SQ",
-    "lines": "6",
     "id": "WESTCHESTER SQ 6",
     "audits": {
       "11-03-12": {
@@ -21245,8 +20559,6 @@
     }
   },
   {
-    "name": "MIDDLETOWN ROAD",
-    "lines": "6",
     "id": "MIDDLETOWN ROAD 6",
     "audits": {
       "11-03-12": {
@@ -21308,8 +20620,6 @@
     }
   },
   {
-    "name": "BUHRE AVE",
-    "lines": "6",
     "id": "BUHRE AVE 6",
     "audits": {
       "11-03-12": {
@@ -21371,8 +20681,6 @@
     }
   },
   {
-    "name": "PELHAM BAY PARK",
-    "lines": "6",
     "id": "PELHAM BAY PARK 6",
     "audits": {
       "11-03-12": {
@@ -21434,8 +20742,6 @@
     }
   },
   {
-    "name": "5 AVE-BRYANT PK",
-    "lines": "7BDFM",
     "id": "5 AVE-BRYANT PK 7BDFM",
     "audits": {
       "11-03-12": {
@@ -21497,8 +20803,6 @@
     }
   },
   {
-    "name": "VERNON/JACKSON",
-    "lines": "7",
     "id": "VERNON/JACKSON 7",
     "audits": {
       "11-03-12": {
@@ -21560,8 +20864,6 @@
     }
   },
   {
-    "name": "HUNTERS PT AVE",
-    "lines": "7",
     "id": "HUNTERS PT AVE 7",
     "audits": {
       "11-03-12": {
@@ -21623,8 +20925,6 @@
     }
   },
   {
-    "name": "COURT SQ",
-    "lines": "7",
     "id": "COURT SQ 7",
     "audits": {
       "11-03-12": {
@@ -21686,8 +20986,6 @@
     }
   },
   {
-    "name": "QUEENSBORO PLZ",
-    "lines": "7NQ",
     "id": "QUEENSBORO PLZ 7NQ",
     "audits": {
       "11-03-12": {
@@ -21749,8 +21047,6 @@
     }
   },
   {
-    "name": "BEEBE-39 AVE",
-    "lines": "NQ",
     "id": "BEEBE-39 AVE NQ",
     "audits": {
       "11-03-12": {
@@ -21812,8 +21108,6 @@
     }
   },
   {
-    "name": "WASHINGTON-36 A",
-    "lines": "NQ",
     "id": "WASHINGTON-36 A NQ",
     "audits": {
       "11-03-12": {
@@ -21875,8 +21169,6 @@
     }
   },
   {
-    "name": "BROADWAY-31 ST",
-    "lines": "NQ",
     "id": "BROADWAY-31 ST NQ",
     "audits": {
       "11-03-12": {
@@ -21938,8 +21230,6 @@
     }
   },
   {
-    "name": "GRAND-30 AVE",
-    "lines": "NQ",
     "id": "GRAND-30 AVE NQ",
     "audits": {
       "11-03-12": {
@@ -22001,8 +21291,6 @@
     }
   },
   {
-    "name": "HOYT ST-ASTORIA",
-    "lines": "NQ",
     "id": "HOYT ST-ASTORIA NQ",
     "audits": {
       "11-03-12": {
@@ -22064,8 +21352,6 @@
     }
   },
   {
-    "name": "DITMARS BL-31 S",
-    "lines": "NQ",
     "id": "DITMARS BL-31 S NQ",
     "audits": {
       "11-03-12": {
@@ -22127,8 +21413,6 @@
     }
   },
   {
-    "name": "33 ST/RAWSON ST",
-    "lines": "7",
     "id": "33 ST/RAWSON ST 7",
     "audits": {
       "11-03-12": {
@@ -22190,8 +21474,6 @@
     }
   },
   {
-    "name": "40 ST-LOWERY ST",
-    "lines": "7",
     "id": "40 ST-LOWERY ST 7",
     "audits": {
       "11-03-12": {
@@ -22253,8 +21535,6 @@
     }
   },
   {
-    "name": "46 ST-BLISS ST",
-    "lines": "7",
     "id": "46 ST-BLISS ST 7",
     "audits": {
       "11-03-12": {
@@ -22316,8 +21596,6 @@
     }
   },
   {
-    "name": "61 ST/WOODSIDE",
-    "lines": "7",
     "id": "61 ST/WOODSIDE 7",
     "audits": {
       "11-03-12": {
@@ -22379,8 +21657,6 @@
     }
   },
   {
-    "name": "82 ST-JACKSON H",
-    "lines": "7",
     "id": "82 ST-JACKSON H 7",
     "audits": {
       "11-03-12": {
@@ -22442,8 +21718,6 @@
     }
   },
   {
-    "name": "90 ST-ELMHURST",
-    "lines": "7",
     "id": "90 ST-ELMHURST 7",
     "audits": {
       "11-03-12": {
@@ -22505,8 +21779,6 @@
     }
   },
   {
-    "name": "JUNCTION BLVD",
-    "lines": "7",
     "id": "JUNCTION BLVD 7",
     "audits": {
       "11-03-12": {
@@ -22568,8 +21840,6 @@
     }
   },
   {
-    "name": "103 ST-CORONA",
-    "lines": "7",
     "id": "103 ST-CORONA 7",
     "audits": {
       "11-03-12": {
@@ -22631,8 +21901,6 @@
     }
   },
   {
-    "name": "111 ST",
-    "lines": "7",
     "id": "111 ST 7",
     "audits": {
       "11-03-12": {
@@ -22694,8 +21962,6 @@
     }
   },
   {
-    "name": "METS-WILLETS PT",
-    "lines": "7",
     "id": "METS-WILLETS PT 7",
     "audits": {
       "11-03-12": {
@@ -22757,8 +22023,6 @@
     }
   },
   {
-    "name": "MAIN ST",
-    "lines": "7",
     "id": "MAIN ST 7",
     "audits": {
       "11-03-12": {
@@ -22820,8 +22084,6 @@
     }
   },
   {
-    "name": "CLARK ST",
-    "lines": "23",
     "id": "CLARK ST 23",
     "audits": {
       "11-03-12": {
@@ -22883,8 +22145,6 @@
     }
   },
   {
-    "name": "HOYT ST",
-    "lines": "23",
     "id": "HOYT ST 23",
     "audits": {
       "11-03-12": {
@@ -22946,8 +22206,6 @@
     }
   },
   {
-    "name": "NEVINS ST",
-    "lines": "2345",
     "id": "NEVINS ST 2345",
     "audits": {
       "11-03-12": {
@@ -23009,8 +22267,6 @@
     }
   },
   {
-    "name": "BERGEN ST",
-    "lines": "23",
     "id": "BERGEN ST 23",
     "audits": {
       "11-03-12": {
@@ -23072,8 +22328,6 @@
     }
   },
   {
-    "name": "GRAND ARMY PLAZ",
-    "lines": "23",
     "id": "GRAND ARMY PLAZ 23",
     "audits": {
       "11-03-12": {
@@ -23135,8 +22389,6 @@
     }
   },
   {
-    "name": "EASTERN PKWY",
-    "lines": "23",
     "id": "EASTERN PKWY 23",
     "audits": {
       "11-03-12": {
@@ -23198,8 +22450,6 @@
     }
   },
   {
-    "name": "FRANKLIN AVE",
-    "lines": "2345S",
     "id": "FRANKLIN AVE 2345S",
     "audits": {
       "11-03-12": {
@@ -23261,8 +22511,6 @@
     }
   },
   {
-    "name": "NOSTRAND AVE",
-    "lines": "3",
     "id": "NOSTRAND AVE 3",
     "audits": {
       "11-03-12": {
@@ -23324,8 +22572,6 @@
     }
   },
   {
-    "name": "KINGSTON AVE",
-    "lines": "3",
     "id": "KINGSTON AVE 3",
     "audits": {
       "11-03-12": {
@@ -23387,8 +22633,6 @@
     }
   },
   {
-    "name": "CROWN HTS-UTICA",
-    "lines": "34",
     "id": "CROWN HTS-UTICA 34",
     "audits": {
       "11-03-12": {
@@ -23450,8 +22694,6 @@
     }
   },
   {
-    "name": "SUTTER AVE",
-    "lines": "3",
     "id": "SUTTER AVE 3",
     "audits": {
       "11-03-12": {
@@ -23513,8 +22755,6 @@
     }
   },
   {
-    "name": "SARATOGA AVE",
-    "lines": "3",
     "id": "SARATOGA AVE 3",
     "audits": {
       "11-03-12": {
@@ -23576,8 +22816,6 @@
     }
   },
   {
-    "name": "ROCKAWAY AVE",
-    "lines": "3",
     "id": "ROCKAWAY AVE 3",
     "audits": {
       "11-03-12": {
@@ -23639,8 +22877,6 @@
     }
   },
   {
-    "name": "JUNIUS ST",
-    "lines": "3",
     "id": "JUNIUS ST 3",
     "audits": {
       "11-03-12": {
@@ -23702,8 +22938,6 @@
     }
   },
   {
-    "name": "PENNSYLVANIA AV",
-    "lines": "3",
     "id": "PENNSYLVANIA AV 3",
     "audits": {
       "11-03-12": {
@@ -23765,8 +22999,6 @@
     }
   },
   {
-    "name": "VAN SICLEN AVE",
-    "lines": "3",
     "id": "VAN SICLEN AVE 3",
     "audits": {
       "11-03-12": {
@@ -23828,8 +23060,6 @@
     }
   },
   {
-    "name": "NEW LOTS AVE",
-    "lines": "3",
     "id": "NEW LOTS AVE 3",
     "audits": {
       "11-03-12": {
@@ -23891,8 +23121,6 @@
     }
   },
   {
-    "name": "PRESIDENT ST",
-    "lines": "25",
     "id": "PRESIDENT ST 25",
     "audits": {
       "11-03-12": {
@@ -23954,8 +23182,6 @@
     }
   },
   {
-    "name": "STERLING ST",
-    "lines": "25",
     "id": "STERLING ST 25",
     "audits": {
       "11-03-12": {
@@ -24017,8 +23243,6 @@
     }
   },
   {
-    "name": "WINTHROP ST",
-    "lines": "25",
     "id": "WINTHROP ST 25",
     "audits": {
       "11-03-12": {
@@ -24080,8 +23304,6 @@
     }
   },
   {
-    "name": "CHURCH AVE",
-    "lines": "25",
     "id": "CHURCH AVE 25",
     "audits": {
       "11-03-12": {
@@ -24143,8 +23365,6 @@
     }
   },
   {
-    "name": "BEVERLY ROAD",
-    "lines": "25",
     "id": "BEVERLY ROAD 25",
     "audits": {
       "11-03-12": {
@@ -24206,8 +23426,6 @@
     }
   },
   {
-    "name": "NEWKIRK AVE",
-    "lines": "25",
     "id": "NEWKIRK AVE 25",
     "audits": {
       "11-03-12": {
@@ -24269,8 +23487,6 @@
     }
   },
   {
-    "name": "FLATBUSH AVE",
-    "lines": "25",
     "id": "FLATBUSH AVE 25",
     "audits": {
       "11-03-12": {
@@ -24332,8 +23548,6 @@
     }
   },
   {
-    "name": "MORRIS PARK",
-    "lines": "5",
     "id": "MORRIS PARK 5",
     "audits": {
       "11-03-12": {
@@ -24395,8 +23609,6 @@
     }
   },
   {
-    "name": "PELHAM PARKWAY",
-    "lines": "5",
     "id": "PELHAM PARKWAY 5",
     "audits": {
       "11-03-12": {
@@ -24458,8 +23670,6 @@
     }
   },
   {
-    "name": "BAYCHESTER AVE",
-    "lines": "5",
     "id": "BAYCHESTER AVE 5",
     "audits": {
       "11-03-12": {
@@ -24521,8 +23731,6 @@
     }
   },
   {
-    "name": "ST. GEORGE",
-    "lines": "1",
     "id": "ST. GEORGE 1",
     "audits": {
       "11-03-12": {
@@ -24584,8 +23792,6 @@
     }
   },
   {
-    "name": "TOMPKINSVILLE",
-    "lines": "1",
     "id": "TOMPKINSVILLE 1",
     "audits": {
       "11-03-12": {
@@ -24647,8 +23853,6 @@
     }
   },
   {
-    "name": "RIT-MANHATTAN",
-    "lines": "R",
     "id": "RIT-MANHATTAN R",
     "audits": {
       "11-03-12": {
@@ -24710,8 +23914,6 @@
     }
   },
   {
-    "name": "RIT-ROOSEVELT",
-    "lines": "R",
     "id": "RIT-ROOSEVELT R",
     "audits": {
       "11-03-12": {
