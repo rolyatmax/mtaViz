@@ -199,7 +199,7 @@
 	var Station = (function(){
 
 		var ANIM_SPEED = 0.04;
-		var RADIUS_MAX = 200;
+		var RADIUS_MAX = 80;
 
 		var Station = function( data ) {
 
@@ -231,7 +231,7 @@
 				var entries = date_data[ hour ];
 
 				this.entries = entries || 0;
-				this.target_r = entries / 230;
+				this.target_r = entries / 500; // scale down the circles with higher numbers
 				if (this.target_r < 0) this.target_r = 0;
 				if (this.target_r > RADIUS_MAX) this.target_r = RADIUS_MAX;
 			},
