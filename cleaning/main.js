@@ -13,6 +13,8 @@ var ext = '.csv';
 var data = {};
 var stationURL = '../raw/Remote-Booth-Station.csv';
 
+var stationLocationURL = '../raw/geocoded.csv';
+
 // pass in the index of the path you want to process above
 // (not a clean way of doing this, I know)
 start(9);
@@ -21,45 +23,39 @@ function start(cur) {
 
 	turnstileURL = base + paths[cur] + ext;
 
-	console.log('Loading Turnstile Data');
+	var returned = 0;
 
-	fs.readFile(turnstileURL, function(err, file) {
-		if (err) throw err;
+	readFile(turnstileURL, 'turnstile');
+	readFile(stationURL, 'station');
+	readFile(stationLocationURL, 'stationLocation');
 
-		var returned = 0;
-
-		console.log('Parsing Turnstile Data');
-		csv()
-			.from.string(file)
-			.to.array(function(res){
-				returned += 1;
-				data.turnstile = res;
-				if (returned === 2) main(function(){
-					closeAndWrite( "../data/sorted_" + paths[cur] + ".json", data.turnstile );
-					closeAndWrite( "../data/station_data.json", data.station );
-				});
-			});
-
-		console.log('Loading Station Data');
-		fs.readFile(stationURL, function(err, file) {
+	function readFile(url, data_namespace) {
+		console.log('Loading ' + data_namespace + ' Data');
+		fs.readFile(url, function(err, file) {
 			if (err) throw err;
 
-			console.log('Parsing Station Data');
-			csv()
-				.from.string(file)
-				.to.array(function(res){
-					returned += 1;
-					data.station = res;
-					if (returned === 2) main(function(){
-						closeAndWrite( "../data/sorted_" + paths[cur] + ".json", data.turnstile );
-						closeAndWrite( "../data/station_data.json", data.station );
-					});
-				});
+			console.log('Parsing ' + data_namespace + ' Data');
+			csv().from.string(file).to.array( generateHandler(data_namespace) );
 		});
-	});
+	}
+
+	function generateHandler(data_namespace) {
+		return function(res) {
+			returned += 1;
+			data[data_namespace] = res;
+			if (returned === 3) main( success );
+		};
+	}
+
+	function success() {
+		closeAndWrite( "../data/sorted_" + paths[cur] + ".json", data.turnstile );
+		closeAndWrite( "../data/station_data.json", data.station );
+	}
 }
 
 function main(cb) {
+
+	data.stationLocation = cleanUpStationLocationData( data.stationLocation );
 
 	data.station = setupStationKey( data.station );
 
@@ -67,6 +63,8 @@ function main(cb) {
 	data.turnstile = combineAudits( data.turnstile );
 	data.turnstile = addNewEntryData( data.turnstile );
 	data.turnstile = combineStations( data.turnstile );
+
+	data.station = setStationIDAsKey( data.station );
 
 	if (cb) cb();
 
@@ -79,6 +77,29 @@ function convertTurnstileData( array ) {
 		array[i] = parse( array[i] );
 	}
 	return array;
+}
+
+function cleanUpStationLocationData( array ) {
+
+	console.log('Cleaning up station location data');
+
+	var station;
+	var cleanStations = {};
+
+	for (var i = 0, len = array.length; i < len; i++) {
+		var entry = array[i];
+
+		if (!entry[5] && !entry[6]) continue;
+
+		var locationData = {
+			latitude: entry[5],
+			longitude: entry[6]
+		};
+
+		cleanStations[ entry[0] ] = locationData;
+	}
+
+	return cleanStations;
 }
 
 function setupStationKey( array ) {
@@ -95,6 +116,11 @@ function setupStationKey( array ) {
 		station.name = entry[2];
 		station.lines = entry[3];
 		station.id = station.name + ' ' + station.lines;
+
+		var coords = data.stationLocation[ station.area ];
+
+		station.latitude = coords && coords.latitude;
+		station.longitude = coords && coords.longitude;
 
 		array[i] = station;
 	}
@@ -225,9 +251,12 @@ function combineAudits( array ) {
 		// create a new object to represent the turnstile
 		// complete with id and an array of its audits
 		var obj = {};
-		obj.id = turnstile[0].area + ' ' + turnstile[0].unit + ' ' + turnstile[0].subunit;
-		obj.name = data.station[ turnstile[0].unit ].name;
-		obj.lines = data.station[ turnstile[0].unit ].lines;
+
+		var turnstileData = turnstile[0];
+
+		obj.id = turnstileData.area + ' ' + turnstileData.unit + ' ' + turnstileData.subunit;
+		obj.name = data.station[ turnstileData.unit ].name;
+		obj.lines = data.station[ turnstileData.unit ].lines;
 		obj.audits = [];
 		_und.each(turnstile, function(dataSet) {
 			obj.audits = obj.audits.concat( dataSet.audits );
@@ -265,6 +294,23 @@ function addNewEntryData( array ) {
 
 	return array;
 }
+
+function setStationIDAsKey( stations ) {
+
+	var reworkedStations = {};
+
+	for (var prop in stations) {
+		if (stations.hasOwnProperty(prop)) {
+
+			var station = stations[prop];
+			reworkedStations[ station.id ] = station;
+
+		}
+	}
+
+	return reworkedStations;
+}
+
 
 
 //// Parses a single array from the parsed CSV file
