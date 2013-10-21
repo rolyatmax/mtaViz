@@ -8,6 +8,11 @@
 
 (function(){
 
+	var mta = {};
+
+	mta.data_urls = ["data/sorted_turnstile_121103.json", "data/sorted_turnstile_121110.json"];
+	mta.dates = '10-27-12 10-28-12 10-29-12 10-30-12 10-31-12 11-01-12 11-02-12 11-03-12 11-04-12 11-05-12 11-06-12 11-07-12 11-08-12 11-09-12'.split(' ');
+
 	var width = 960;
 	var height = 1150;
 
@@ -30,9 +35,11 @@
 
 		d3.json('shapefiles/manhattan_roads.json', function(err, manhattan) {
 
-			$('#curtain').css({ opacity: 0 }).on('transitionend', function() {
+			$('#curtain').css({ opacity: 0 });
+			// because I can't get ontransitionend to work well cross browser (thanks Safari)
+			setTimeout(function() {
 				$('#curtain').remove();
-			});
+			}, 1000);
 
 			$('canvas').css({ opacity: 1 });
 
@@ -70,56 +77,81 @@
 			fullscreen: false
 		});
 
-		var stations = [];
-		var bikeData;
+		var stations_data = [];
 
 		viz.setup = function() {
 
-			mta.init();
+			var station_url = "data/station_data.json";
+			var data_urls = mta.data_urls;
 
-			// var station_url = "data/stations.json";
-			// var data_url = "data/sorted_data.json";
+			mta.turnstileData = [];
+			var promises = [];
 
-			// var station_promise = $.getJSON(station_url).then(function(data){
-			// 	for (var i = 0, len = data.length; i < len; i++) {
-			// 		stations.push( new Station(data[i]) );
-			// 	}
-			// });
+			promises.push( $.getJSON(station_url).then(function(data){
+				stations_data = data;
+			}) );
 
-			// var data_promise = $.getJSON(data_url).then(function(data){
-			// 	bikeData = data;
-			// });
+			for (var i = 0, len = data_urls.length; i < len; i++) {
+				promises.push( $.getJSON(data_urls[i]).then(function(data){
 
-			// $.when(station_promise, data_promise).then(function(){
-			// 	viz.start();
-			// });
+					_.each(mta.turnstileData, function(station){
+						var toAugment = _.findWhere(data, { id: station.id });
+						if (!station.audits || !toAugment || !toAugment.audits) return;
+						station.audits = _.extend( station.audits, toAugment.audits );
+					});
+
+					if (!mta.turnstileData.length) mta.turnstileData = data;
+
+				}) );
+			}
+
+			$.when.apply($, promises).then(function(){
+				mta.stations = _.map(stations_data, function(station){
+					return new Station(station);
+				});
+
+				viz.start();
+			});
 
 		};
 
-		var p = 0;
+		var dates = mta.dates;
+		var hours = '0 4 8 12 16 20'.split(' ');
+
+		var date_i = 0;
+		var hour_i = 0;
+
 		var lastSec = 0;
 		var curSlice;
-		var SPEED = 2.5;
+		var date;
+		var hour;
+
+		var SPEED = 1.5;
 
 		viz.update = function() {
 			var sec = SPEED * (viz.millis / 1000) | 0;
 
 			if (sec > lastSec) {
 				lastSec = sec;
-				p += 1;
-				curSlice = bikeData[p];
+				hour_i += 1;
 
-				if (!curSlice || !curSlice.docs || !curSlice.docs.length) {
-					p = 0;
-					return;
+				// reset hours and days once they reach the end
+				if (hour_i >= hours.length) {
+					hour_i = 0;
+					date_i += 1;
+				}
+				if (date_i >= dates.length) {
+					date_i = 0;
 				}
 
-				_.each(stations, function(station){
-					var data = _.findWhere(curSlice.docs, { station_id: station.id });
-					station.update( data );
+				date = dates[ date_i ];
+				hour = hours[ hour_i ];
+
+				_.each(mta.stations, function(station){
+					station.update( date, hour );
 				});
 
-				updateTimeDisplay( curSlice );
+				updateTimeDisplay( date, hour );
 			}
 
 		};
@@ -127,7 +159,7 @@
 		viz.draw = function() {
 			viz.save();
 
-			_.each(stations, function(station) {
+			_.each(mta.stations, function(station) {
 				station.draw(viz);
 			});
 
@@ -135,19 +167,17 @@
 		};
 
 		var $timeslice = $('.timeslice');
-		var days = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday'.split(' ');
 
-		function updateTimeDisplay( data ) {
+		function updateTimeDisplay( date, hour ) {
 
-			var day = days[data.day];
-			var hour = convertHour(data.hour);
-
-			var text = day + ' | ' + hour;
+			var text = date + ' | ' + convertHour(hour);
 
 			$timeslice.text( text );
 		}
 
 		function convertHour(hour) {
+			hour = parseInt(hour, 10);
+
 			if (hour === 0) {
 				return '12AM';
 			}
@@ -169,6 +199,7 @@
 	var Station = (function(){
 
 		var ANIM_SPEED = 0.04;
+		var RADIUS_MAX = 200;
 
 		var Station = function( data ) {
 
@@ -176,23 +207,38 @@
 
 			this.x = loc.x;
 			this.y = loc.y;
-			this.name = data.stationName;
+			this.name = data.name;
 			this.id = data.id;
-			this.bikes = 1;
+			this.entries = 1;
+			this.target_r = 1;
 			this.animating = false;
-			this.r = this.bikes;
+			this.r = this.entries;
+
+			var station_data = _.findWhere(mta.turnstileData, { id: this.id });
+
+			if (!station_data) return this;
+
+			this.audits = station_data.audits;
 		};
 
 		Station.prototype = {
 
-			update: function( data ) {
-				if (!data) return;
-				this.bikes = data.bikes;
+			update: function( date, hour ) {
+				if (!date || !hour || !this.audits) return;
+
+				var date_data = this.audits[ date ];
+				if (!date_data) return;
+				var entries = date_data[ hour ];
+
+				this.entries = entries || 0;
+				this.target_r = entries / 230;
+				if (this.target_r < 0) this.target_r = 0;
+				if (this.target_r > RADIUS_MAX) this.target_r = RADIUS_MAX;
 			},
 
 			draw: function(ctx) {
 
-				var delta = this.bikes - this.r;
+				var delta = this.target_r - this.r;
 				this.r += delta * ANIM_SPEED;
 
 				ctx.beginPath();
